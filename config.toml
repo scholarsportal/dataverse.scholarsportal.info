@@ -1,0 +1,298 @@
+# Site settings
+baseurl = "https://staticdev.scholarsportal.info/dataverse-public/"
+title = "Dataverse"
+languageCode = "en-us"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Dataverse"
+	description = "The Scholars Portal Dataverse is a repository primarily for research data collected by researchers and organizations affiliated with Ontario universities, although anyone in the world is welcome to use Scholars Portal Dataverse to deposit, share, and archive data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University.  Scholars Portal Dataverse is provided as a shared Ontario Council of University Libraries service. Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "dataverse@scholarsportal.info"
+
+    # Link custom assets relative to /static
+    custom_css = ["css/custom.css"]
+    custom_js  = []
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Dataverse"
+		services = "Benefits"
+		about = "Features"
+		portfolio = "Use Cases"
+		team = "Team"
+		clients_list = "Partners"
+		pricing = "Pricing"
+		faq = "FAQ"
+		contact = "Contact"
+		img = "dataverse-logo.png"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = ""
+    #    name = ""
+    #    weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+        url = "https://dataverse.scholarsportal.info/loginpage.xhtml"
+        name = "Login <i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>"
+        weight = 20
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = ""
+		subtitle = "Publish and track your data, discover, and reuse others’ data!"
+		buttonText = "Tell me more"
+    buttonText2 = "Go to Dataverse"
+
+		[[params.hero.logo]]
+			img = "harvard-logo.png"
+
+	# Benefits section
+	[params.services]
+    enable = true
+		title = "Benefits"
+		subtitle = "Why Should I Use Dataverse?"
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-globe"
+                title = "Explore"
+                description = "Visualize and explore data, all in your web browser. Quickly explore summaries and visualizations of variables within a dataset on the Dataverse website. Supporting common tabular data file formats that are used with Stata, SPSS, R, Excel."
+
+            [[params.services.row.list]]
+                icon = "fa-lock"
+                title = "Secure"
+                description = "Dataverse supports the creation of terms of use and restrictions in order to control access to your research data. Dataverse facilitates long-term access, persistent identifiers, and preservation by storing a backup copy for safekeeping."
+
+            [[params.services.row.list]]
+                icon = "fa-users"
+                title = "Collaborative"
+                description = "Receive academic credit and recognition by making your data more discoverable to the research community online. Collaborate in teams and track changes as Dataverse provides increased user control over managing changes to a project."
+
+            [[params.services.row.list]]
+                icon = "fa-tasks"
+                title = "Control"
+                description = "Since Dataverse is a service of your university library, you and your institution retain control of the data at all times. Scholars Portal Dataverse is hosted completely on Canadian servers, so there’s no question about jurisdiction or what laws apply."
+
+    # Features section
+	[params.about]
+    enable = true
+		title = "Features"
+		subtitle = ""
+		endpoint = "[<br>Contact Us!](#contact)"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+
+		[[params.about.events]]
+			img = "explore.png"
+			title = "Data Explorer"
+			description = "The Data Explorer is available through [Dataverse’s] (https://dataverse.scholarsportal.info/) landing page for datasets, so you can explore the full list of variables conveniently through your web browser without any extra software. You can search the list of variables, select specific variables to download, chart and compare selected multiple variables, and view summary statistics."
+
+		[[params.about.events]]
+			img = "datacite_logo.jpeg"
+			title = "DOIs from DataCite"
+			description = "To help increase the impact of your research, Dataverse assigns DOIs provided by [DataCite] (http://www.nrc-cnrc.gc.ca/eng/publications/library_services/datacite/factsheets.html#overview) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
+
+		[[params.about.events]]
+			img = "discoverability.png"
+			title = "Discoverability"
+			description = "Scholars Portal's Dataverse feeds into the [SHARE notification system] (http://www.share-research.org/) to make your public datasets more discoverable. Dataverse also supports [ORCID identifiers] (https://orcid.org/) to link your data to your online presence."
+
+		[[params.about.events]]
+			img = "fr.png"
+			title = "Bilingual functionality"
+			description = "Dataverse at Scholars Portal is available in both English and French. Bilingual functionality means users can view Dataverse in their language of preference."
+
+    [[params.about.events]]
+      img = "institution.png"
+      title = "Institutional Dataverses"
+      description = "Scholars Portal Dataverse is setup with Institutional Dataverses. With this faceted system, if your institution has other affiliated libraries or research institutions, they can also set up their own dataverse. This means that you can browse data from specific institutions, or view all datasets available."
+
+
+	# Use Cases section
+	[params.portfolio]
+        enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more information take a look at the README.
+		title = "Use Cases"
+		subtitle = "How Are Researchers Using Dataverse?"
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close"
+
+    # Pricing section - see layouts/partials/pricing.html
+    [params.pricing]
+    	enable = false
+    	title = "Pricing"
+    	subtitle = ""
+
+   	# FAQ section
+   	[params.faq]
+   		enable = true
+   		title = "FAQ"
+   		subtitle = "Frequently Asked Questions"
+
+   		[[params.questions]]
+   		question = "What is a Dataverse?"
+   		answer = "A Dataverse is a container for one or more Datasets or Dataverses. Each Ontario University  has a Dataverse that may contain multiple Dataverses and Datasets. A Dataset, for the purposes of Dataverse, is a container for a particular research data set which can include research data, documentation, code and associated metadata."
+
+   		[[params.questions]]
+   		question = "What can I upload?"
+   		answer = "Dataverse is ideal for depositing and sharing research data, and supports a variety of research data types and formats. You are welcome to upload research data, supplementary tables and documentation, publications associated with data, presentations, etc."
+
+   		[[params.questions]]
+   		question = "What types of files can I upload?"
+   		answer = "Dataverse supports the uploading of any file type, including shapefiles, Flexible Image Transport System files, and compressed files. However to make use of the Data explorer feature, you need to upload tabular data files (e.g. Stata, SPSS, R, Excel (xlsx) and CSV). Any further questions regarding data downloading, uploading and storage space can be answered by following [this link] (http://guides.scholarsportal.info/dataverse)."
+
+   		[[params.questions]]
+   		question = "Does this service cost anything?"
+   		answer = "The Scholars Portal Dataverse service is paid for by the Ontario Council of University Libraries (OCUL). There is no direct cost to researchers or other users."
+
+   		[[params.questions]]
+   		question = "Can I sign up? How can I deposit data?"
+   		answer = "At this time, anyone can sign up for an account and deposit data with Dataverse, although the service is primarily for those affiliated with an Ontario University, including students, researchers, faculty, and staff. We ask that you abide by the [Scholars Portal Terms of Use] (http://guides.scholarsportal.info/dataverse#s-lg-box-12566714) when signing up for an account and using the platform. Sign up by following [this link] (https://dataverse.scholarsportal.info/dataverseuser.xhtml?editMode=CREATE&redirectPage=%2Fdataset.xhtml%3FpersistentId%3Ddoi%3A10.5683%2FSP%2FYGTGCB)."
+
+   		[[params.questions]]
+   		question = "Can a group of researchers sign up together to study data collaboratively?"
+   		answer = "Dataverse also supports groups of researchers who wish to upload and collaborate on a study or Dataverse together. This is useful for large projects with multiple researchers in different locations. For more information about how to use group permissions and assign account roles, see the Permission sections of this guide or visit the [Advanced Dataverse User Guide](https://dataverse.scholarsportal.info/guides/en/4.5/user/index.html) created by Harvard."
+
+   		[[params.questions]]
+   		question = "Will my data be protected and safe?"
+   		answer = "Dataverse allows you to upload data and store it in case your local copy is lost or destroyed. It is generally a good idea to keep a copy of your data in Dataverse. Scholars Portal makes backup copies of the data you upload to Dataverse regularly in the event of a server or system malfunction, malicious attack, or other technical issue. Security is in place to protect your data from others who wish to exploit or access data that they are not authorized to, including sensitive data. Any data uploaded to SP Dataverse can be restricted to only authorized users. You can easily manage the restrictions of your Dataverse and studies to be private, available to only certain IPs, to individual account(s) or to specific groups (see the Permissions sections of [this guide] (http://guides.scholarsportal.info/dataverse) for further information)."
+
+   		[[params.questions]]
+   		question = "I would like to use Dataverse to collaborate with my research team, but don't want to release my data. Does my dataset or dataverse need to published before I can share it?"
+   		answer = "No, datasets or dataverses do not need to be published in order to share them. Please see [this detailed guide] (http://guides.scholarsportal.info/dataverse/about#share-data) for more details."
+
+   		[[params.questions]]
+   		question = "Do I need to deposit my data into an institutional dataverse to make it available?"
+   		answer = "Researchers may choose to deposit their data in an institutional dataverse if they want to share their work with their institution (e.g. to facilitate collaboration, meet grant requirements, etc.). The Scholars Portal root dataverse may be used to deposit data if researchers are not affiliated with one of the listed institution, if they are conducting personal research, or if the research being conducted is multi-institutional (please note that in this last case researchers can choose instead to duplicate data within multiple institutional dataverses)."
+
+   		[[params.questions]]
+   		question = "How can I cite my data in a research publication?"
+   		answer = "Dataverse assigns a Digital Object Identifier (DOI) that conforms to the [DataCite Canada] (http://www.nrc-cnrc.gc.ca/eng/publications/library_services/datacite/) principles for identifiers for datasets. By generating a standard data citation, it can be used in any research publication. Users can download the citation in various formats (like EndNote XML, BibTex, etc.) by clicking the 'Cite Data' button on the landing page for a dataset. The citation includes a persistent URL that will point people directly to your study in Dataverse."
+
+   		[[params.questions]]
+   		question = "Will Scholars Portal’s Dataverse share information about my data with any third-party providers? (e.g. Google)"
+   		answer = "In short, yes, if you choose to make it public and it may be shared in the following ways: 1) By default, any data that are uploaded and released openly are harvestable by other Dataverses, repositories, search engines etc. The Dataverse platform supports the Open Archives Initiative (OAI) harvesting protocol OAI-PMH, which allows published and public files to be harvested by other systems for the purposes of data discovery. 2) The Data Sharing API is another way developers can access publicly shared data and metadata for use in other systems or applications. 3) In accordance with the Scholars Portal Dataverse Terms of Use, the SHARE Notification System will access only metadata for those studies which have been released publicly. All study and file-level restrictions on the data are maintained. In all cases, only data and metadata that have been publically released are exposed to others through the programming interfaces and applications. Overall, the exposure of public data and metadata greatly enables data discovery across multiple platforms and increases the likelihood that your data will be found and reused.."
+
+      [[params.questions]]
+      question = "Will there be any ownership issues with the data I deposit?"
+      answer = "Since Dataverse is a service of your university library, you and your institution retain control of the data at all times. Scholars Portal Dataverse is hosted completely on Canadian servers, so there’s no question about jurisdiction or what laws apply."
+
+      [[params.questions]]
+      question = "Can Dataverse integrate with other research tools?"
+      answer = "Dataverse is intergrated with the [Open Science Framework (OSF)] (https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse 4.0. See the [OSF Guide] (http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas."
+
+
+	# Team section (disabled)
+	[params.team]
+        enable = false
+		title = "Our amazing team"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "1.jpg"
+			name = "Kay Garland"
+			position = "Lead Designer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+
+	# Partners section
+    [params.clients_list]
+        enable = false
+        title=""
+        subtitle=""
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+
+    	[[params.clients]]
+    		logo = ""
+    		link = ""
+    		alt = ""
+
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact us"
+		subtitle  = "Get In Touch!"
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Organization *"
+			warning = "Please enter your organization."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+	# Footer section
+	[params.footer]
+    enable = true
+		copyright = "&copy; Ontario Council of University Libraries"
+		logo = "ocul.png"
+		link = "http://ocul.on.ca"
+    secondlogo = "sp.png"
+    secondlink = "http://scholarsportal.info/"
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "https://twitter.com/scholarsportal"
+			alt = "twitter"
