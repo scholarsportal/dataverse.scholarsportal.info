@@ -94,7 +94,6 @@ fieldset[disabled] .btn-primary.active {
     background-color: #002e40;
 }
 
-
 .btn-xl.disabled,
 .btn-xl[disabled],
 fieldset[disabled] .btn-xl,
@@ -338,8 +337,8 @@ header .or-text {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
     font-weight: bold;
-
 }
+
 header .space-or-text {
     padding: 20px 20px;
     display: block;
@@ -386,7 +385,6 @@ header .intro-text .intro-heading {
     .btn-xl {
         display: block;
     }
-
 
     .navbar-right {
         float: left!important;
@@ -462,7 +460,6 @@ header .intro-text .intro-heading {
     .navbar-shrink img {
         animation:none;
     }
-
 }
 
 section {
@@ -786,7 +783,6 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-
 th {
     font-size: 18px;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -803,7 +799,9 @@ td {
     padding-bottom: 10px;
 }
 
-.faq-answer {
+.faq-answer,
+#faq,
+#faq ul li {
     font-size: 16px;
     padding-bottom: 15px;
 }
