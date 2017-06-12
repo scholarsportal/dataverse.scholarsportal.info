@@ -72,7 +72,7 @@ googleAnalytics = ""
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = ""
-		subtitle = "Publish and track your data, discover, and reuse others’ data!"
+		subtitle = "Store, share, publish and discover research data!"
 		buttonText = "Tell me more"
     buttonText2 = "Go to Dataverse"
 
@@ -118,15 +118,20 @@ googleAnalytics = ""
 		# All images are stored under 'static/img/about'.
 		# Replace them with your own.
 
+    [[params.about.events]]
+      img = "flag.png"
+      title = "Canadian Hosting"
+      description = "Scholars Portal Dataverse is hosted completely on Canadian servers, so there’s no question about jurisdiction or what laws apply."
+
 		[[params.about.events]]
 			img = "explore.png"
-			title = "Data Explorer"
+			title = "Powerful Visualization Tools"
 			description = "The Data Explorer is available through [Dataverse’s] (https://dataverse.scholarsportal.info/) landing page for datasets, so you can explore the full list of variables conveniently through your web browser without any extra software. You can search the list of variables, select specific variables to download, chart and compare selected multiple variables, and view summary statistics."
 
 		[[params.about.events]]
 			img = "datacite_logo.jpeg"
-			title = "DOIs from DataCite"
-			description = "To help increase the impact of your research, Dataverse assigns DOIs provided by [DataCite] (http://www.nrc-cnrc.gc.ca/eng/publications/library_services/datacite/factsheets.html#overview) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
+			title = "Persistent Identifiers"
+			description = "To help increase the impact of your research, Dataverse assigns digital object identifiers, or DOIs, provided by [DataCite] (http://www.nrc-cnrc.gc.ca/eng/publications/library_services/datacite/factsheets.html) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
 
 		[[params.about.events]]
 			img = "discoverability.png"
@@ -136,7 +141,7 @@ googleAnalytics = ""
 		[[params.about.events]]
 			img = "fr.png"
 			title = "Bilingual functionality"
-			description = "Dataverse at Scholars Portal is available in both English and French. Bilingual functionality means users can view Dataverse in their language of preference."
+			description = "Scholars Portal Dataverse is available in both English and French. Bilingual functionality means users can view Dataverse in their language of preference."
 
     [[params.about.events]]
       img = "institution.png"
