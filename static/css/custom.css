@@ -386,10 +386,6 @@ fieldset[disabled] .btn-xl.active {
         display: block;
     }
 
-    .navbar-right {
-        float: left!important;
-    }
-
     .ocul {
         margin-bottom: 25px;
     }
