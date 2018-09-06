@@ -2,12 +2,12 @@
 <header>
     <div class="container">
         <div class="intro-text">
-			<a href="https://dataverse.scholarsportal.info/" target="_blank"><img alt="Dataverse logo" src="img/{{ with .Site.Params.navigation.img }}{{ . | markdownify }}{{ end }}"></a>
+			<a href="{{ .Site.BaseURL }}dataverse.xhtml"><img alt="Dataverse logo" src="assets/img/{{ with .Site.Params.navigation.img }}{{ . | markdownify }}{{ end }}"></a>
             <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
             <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
             <p class="space-or-text"><a href="#benefits" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
             <span class="or-text">or</span>
-            <a class="btn btn-xl" href="https://dataverse.scholarsportal.info/" target="_blank">{{ with .Site.Params.hero.buttonText2 }}{{ . | markdownify }}{{ end }}</a></p>
+            <a class="btn btn-xl" href="{{ .Site.BaseURL }}dataverse.xhtml">{{ with .Site.Params.hero.buttonText2 }}{{ . | markdownify }}{{ end }}</a></p>
         </div>
     </div>
 </header>

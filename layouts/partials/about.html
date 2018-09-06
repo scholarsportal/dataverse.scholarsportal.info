@@ -13,7 +13,7 @@
                     {{ range $i, $e := .Site.Params.about.events }}
                     <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
+                            <img class="img-circle img-responsive" src="assets/img/about/{{ .img }}" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
