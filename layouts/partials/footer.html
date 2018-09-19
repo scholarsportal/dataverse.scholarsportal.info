@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-4 ocul">
 			<a href="{{ with .Site.Params.footer.link }}{{ . }}{{ end }}">
-				<img alt="{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}" src="assets/img/{{ with .Site.Params.footer.logo }}{{ . | markdownify }}{{ end }}">
+				<img alt="{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}" src="{{ .Site.BaseURL }}assets/img/{{ with .Site.Params.footer.logo }}{{ . | markdownify }}{{ end }}">
 			</a>
             </div>
             <div class="col-md-4">
@@ -16,7 +16,7 @@
             </div>
             <div class="col-md-4 ocul">
             <a href="{{ with .Site.Params.footer.secondlink }}{{ . }}{{ end }}">
-                <img alt="{{ with .Site.Params.footer.secondcopyright }}{{ . | markdownify }}{{ end }}" src="assets/img/{{ with .Site.Params.footer.secondlogo }}{{ . | markdownify }}{{ end }}">
+                <img alt="{{ with .Site.Params.footer.secondcopyright }}{{ . | markdownify }}{{ end }}" src="{{ .Site.BaseURL }}assets/img/{{ with .Site.Params.footer.secondlogo }}{{ . | markdownify }}{{ end }}">
             </a>
             </div>
             <div class="col-md-4">

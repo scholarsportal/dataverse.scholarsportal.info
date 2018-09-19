@@ -1,5 +1,7 @@
 {{ "<!-- Portfolio Modals -->" | safeHTML }}
-{{ range .Site.Data.projects }}
+{{ $baseurl := .Site.BaseURL }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ range $data.projects }}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -14,7 +16,7 @@
                     <div class="modal-body">
                         <h2>{{ .title  | markdownify }}</h2>
                         <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
-                        <img class="img-responsive img-centered" src="assets/img/portfolio/{{ .img }}" alt="">
+                        <img class="img-responsive img-centered" src="{{ $baseurl }}assets/img/portfolio/{{ .img }}" alt="">
                         <p>{{ .description | markdownify }}</p>
                         <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . | markdownify }}{{ end }}</button>
                     </div>
