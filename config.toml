@@ -126,7 +126,7 @@ defaultContentLanguageInSubdir = "false"
 			title = ""
 			subtitle = "Store, share, publish and discover research data!"
 			buttonText = "Tell me more"
-			buttonText2 = "Go to Dataverse"
+			buttonText2 = "Explore Dataverse"
 
 		# Benefits section
 		[languages.en.params.services]
@@ -180,7 +180,7 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.en.params.about.events]]
 				img = "datacite_logo.jpeg"
 				title = "Persistent Identifiers"
-				description = "To help increase the impact of your research, Dataverse assigns digital object identifiers, or DOIs, provided by [DataCite] (http://www.nrc-cnrc.gc.ca/eng/publications/library_services/datacite/factsheets.html) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
+				description = "To help increase the impact of your research, Dataverse assigns Digital Object iIdentifiers, or DOIs, provided by [DataCite] (http://www.nrc-cnrc.gc.ca/eng/publications/library_services/datacite/factsheets.html) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
 
 			[[languages.en.params.about.events]]
 				img = "discoverability.png"

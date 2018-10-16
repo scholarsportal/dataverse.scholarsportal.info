@@ -59,6 +59,16 @@ header .intro-text .intro-heading {
     color: #b5343a;
 }
 
+#search {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 60px 60px 60px 65px;
+}
+
+.search-box input,
+.search-box button {
+    height: 50px;
+}
+
 @media (min-width: 1024px) {
     header .intro-text {
         padding-top: 180px;
