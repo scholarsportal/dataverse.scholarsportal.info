@@ -7,8 +7,6 @@
         {{ partial "nav.html" . }}
         {{ partial "hero.html" . }}
 
-        {{partial "headtext.html" . }}
-
         {{ if .Site.Params.services.enable }}
             {{ partial "services.html" . }}
         {{ end }}

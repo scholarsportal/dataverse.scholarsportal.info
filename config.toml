@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = "false"
 		# To provide some metadata for search engines feel free to add a few
 		# information about you and your website.
 		name = "Dataverse"
-		description = "The Scholars Portal Dataverse is a repository primarily for research data collected by researchers and organizations affiliated with Ontario universities, although anyone in the world is welcome to use Scholars Portal Dataverse to deposit, share, and archive data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University.  Scholars Portal Dataverse is provided as a shared Ontario Council of University Libraries service. Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
+		description = "Scholars Portal Dataverse is a publicly accessible Canadian data repository provided as a shared service of the Ontario Council of University Libraries (OCUL). Dataverse can be used by anyone in the world to deposit, share, and archive research data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University, with contributors and adopters across Canada and the world. Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
 
 
 		# Navigation
@@ -174,13 +174,13 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.en.params.about.events]]
 				img = "explore.png"
-				title = "Powerful Visualization Tools"
-				description = "The Data Explorer is available for tabular data files in [Dataverse] (https://dataverse.scholarsportal.info/), so you can explore the full list of variables conveniently through your web browser without any extra software. You can search the list of variables, select specific variables to download, chart and compare selected multiple variables, and view summary statistics."
+				title = "Visualization Tools"
+				description = "The Data Explorer is available for tabular data files in Dataverse, so you can explore the full list of variables conveniently through your web browser without any extra software. You can search the list of variables, select specific variables to download, chart and compare selected multiple variables, and view summary statistics."
 
 			[[languages.en.params.about.events]]
 				img = "datacite_logo.jpeg"
 				title = "Persistent Identifiers"
-				description = "To help increase the impact of your research, Dataverse assigns Digital Object iIdentifiers, or DOIs, provided by [DataCite] (http://www.nrc-cnrc.gc.ca/eng/publications/library_services/datacite/factsheets.html) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
+				description = "To help increase the impact of your research, Dataverse assigns Digital Object Identifiers, or DOIs, provided by [DataCite] (https://www.datacite.org/) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
 
 			[[languages.en.params.about.events]]
 				img = "discoverability.png"
@@ -189,7 +189,7 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.en.params.about.events]]
 				img = "fr.png"
-				title = "Bilingual functionality"
+				title = "Bilingual"
 				description = "Scholars Portal Dataverse is available in both English and French. Bilingual functionality means users can view Dataverse in their language of preference."
 
 			[[languages.en.params.about.events]]
@@ -349,12 +349,12 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.en.params.faq.questions]]
 			question = "What is a Dataverse?"
-			answer = "A Dataverse is a container for one or more Datasets or Dataverses. Each Ontario University  has a Dataverse that may contain multiple Dataverses and Datasets. A Dataset, for the purposes of Dataverse, is a container for a particular research data set which can include research data, documentation, code and associated metadata."
+			answer = "A Dataverse is a container for one or more Datasets or Dataverses. Each participating university has a Dataverse that may contain multiple Dataverses and Datasets. A Dataset, for the purposes of Dataverse, is a container for a particular research data set which can include research data, documentation, code and associated metadata."
 			id = "01"
 
 			[[languages.en.params.faq.questions]]
 			question = "Does this service cost anything?"
-			answer = "The Scholars Portal Dataverse service is paid for by the Ontario Council of University Libraries (OCUL). There is no direct cost to researchers or other users. Academic institutions outside of Ontario can contact us about using Scholars Portal Dataverse. "
+			answer = "The Scholars Portal Dataverse service is provided and paid for by the Ontario Council of University Libraries (OCUL) and by other member institutions. There is no direct cost to researchers or other users."
 			id = "02"
 
 			[[languages.en.params.faq.questions]]
@@ -369,7 +369,7 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.en.params.faq.questions]]
 			question = "Can I sign up? How can I deposit data?"
-			answer = "At this time, anyone can sign up for an account and deposit data with Dataverse, although the service is primarily for those affiliated with an Ontario University, including students, researchers, faculty, and staff. We ask that you abide by the [Scholars Portal Terms of Use](https://learn.scholarsportal.info/all-guides/dataverse/terms-of-use/) when signing up for an account and using the platform. Sign up [on the Dataverse platform](https://dataverse.scholarsportal.info/dataverseuser.xhtml?editMode=CREATE)."
+			answer = "At this time, anyone can sign up for an account and deposit data with Dataverse, although the service is primarily for those affiliated with a participating university, including students, researchers, faculty, and staff. We ask that you abide by the [Scholars Portal Terms of Use](https://learn.scholarsportal.info/all-guides/dataverse/terms-of-use/) when signing up for an account and using the platform. Sign up [on the Dataverse platform](https://dataverse.scholarsportal.info/dataverseuser.xhtml?editMode=CREATE)."
 			id = "05"
 
 			[[languages.en.params.faq.questions]]
@@ -409,7 +409,7 @@ defaultContentLanguageInSubdir = "false"
 
 		[[languages.en.params.faq.questions]]
 		question = "Can Dataverse integrate with other research tools?"
-		answer = "Dataverse is intergrated with the [Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse 4.0. See the [OSF Guide](http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas."
+		answer = "Dataverse is integrated with the [Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse 4.0. See the [OSF Guide](http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas."
 		id = "13"
 
 
@@ -417,7 +417,7 @@ defaultContentLanguageInSubdir = "false"
 		[languages.en.params.contact]
 			enable = true
 			title = "Contact us"
-			subtitle  = '<a href="https://learn.scholarsportal.info/all-guides/dataverse/help">Contact an Ontario university library for local assistance</a>, or use the form below'
+			subtitle  = '<a href="https://learn.scholarsportal.info/all-guides/dataverse/help">Contact your university library for local assistance</a>, or use the form below'
 			buttonText = "Send message"
 
 			# 'warning' defines error messages for invalid inputs
@@ -471,7 +471,7 @@ defaultContentLanguageInSubdir = "false"
 		# To provide some metadata for search engines feel free to add a few
 		# information about you and your website.
 		name = "Dataverse"
-		description = "The Scholars Portal Dataverse is a repository primarily for research data collected by researchers and organizations affiliated with Ontario universities, although anyone in the world is welcome to use Scholars Portal Dataverse to deposit, share, and archive data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University.  Scholars Portal Dataverse is provided as a shared Ontario Council of University Libraries service. Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
+		description = "Scholars Portal Dataverse is a publicly accessible Canadian data repository provided as a shared service of the Ontario Council of University Libraries (OCUL). Dataverse can be used by anyone in the world to deposit, share, and archive research data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University, with contributors and adopters across Canada and the world. Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
 
 
 		# Navigation
@@ -510,7 +510,7 @@ defaultContentLanguageInSubdir = "false"
 			title = ""
 			subtitle = "Store, share, publish and discover research data!"
 			buttonText = "En savoir plus"
-			buttonText2 = "Go to Dataverse"
+			buttonText2 ="Explore Dataverse"
 
 		# Benefits section
 		[languages.fr.params.services]
@@ -733,7 +733,7 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.fr.params.faq.questions]]
 			question = "What is a Dataverse?"
-			answer = "A Dataverse is a container for one or more Datasets or Dataverses. Each Ontario University  has a Dataverse that may contain multiple Dataverses and Datasets. A Dataset, for the purposes of Dataverse, is a container for a particular research data set which can include research data, documentation, code and associated metadata."
+			answer = "A Dataverse is a container for one or more Datasets or Dataverses. Each Ontario University has a Dataverse that may contain multiple Dataverses and Datasets. A Dataset, for the purposes of Dataverse, is a container for a particular research data set which can include research data, documentation, code and associated metadata."
 			id = "01"
 
 			[[languages.fr.params.faq.questions]]
@@ -793,7 +793,7 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.fr.params.faq.questions]]
 			question = "Can Dataverse integrate with other research tools?"
-			answer = "Dataverse is intergrated with the [Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse 4.0. See the [OSF Guide](http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas."
+			answer = "Dataverse is integrated with the [Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse 4.0. See the [OSF Guide](http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas."
 			id = "13"
 
 

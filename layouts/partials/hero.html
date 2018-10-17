@@ -1,14 +1,27 @@
 {{ "<!-- Hero -->" | safeHTML }}
 <header>
     <div class="container">
-        <div class="intro-text">
-			<a href="{{ .Site.BaseURL }}dataverse.xhtml"><img alt="Dataverse logo" src="{{ .Site.BaseURL }}assets/img/{{ with .Site.Params.navigation.img }}{{ . | markdownify }}{{ end }}"></a>
-            <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
-            <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
-            <p class="space-or-text"><a href="#benefits" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
-            <span class="or-text">or</span>
-            <a class="btn btn-xl" href="{{ .Site.BaseURL }}dataverse.xhtml">{{ with .Site.Params.hero.buttonText2 }}{{ . | markdownify }}{{ end }}</a></p>
-        </div>
+        <div class="row">
+            <div class="intro-text">
+                <a href="{{ .Site.BaseURL }}dataverse.xhtml"><img alt="Dataverse logo" src="{{ .Site.BaseURL }}assets/img/{{ with .Site.Params.navigation.img }}{{ . | markdownify }}{{ end }}"></a>
+                <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
+                <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
+                <p class="space-or-text"></p>
+                    <a href="#benefits" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
+                    <span class="or-text">or</span>
+                    <a class="btn btn-xl" href="{{ .Site.BaseURL }}dataverse.xhtml">{{ with .Site.Params.hero.buttonText2 }}{{ . | markdownify }}{{ end }}</a>
+                    <form action="{{ .Site.BaseURL }}dataverse/sp?" name="sentMessage" id="searchForm" novalidate>
+                        <div class="input-group search-box col-lg-6">
+                            <input name="q" type="text" class="form-control" placeholder="Search Dataverse" aria-label="Search Dataverse">
+                            <span class="input-group-btn">
+                                <button class="btn btn-lg btn-default" type="submit" title="Search"><i class="fa fa-search" aria-label="search"></i>
+                                </button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </form>
+                </p>
+            </div>
+        </div><!-- /.row -->
     </div>
 </header>
 {{ "<!-- Services Section -->" | safeHTML }}

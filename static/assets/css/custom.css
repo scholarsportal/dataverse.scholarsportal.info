@@ -24,7 +24,7 @@ header img {
 }
 
 header .or-text {
-    padding: 0px 15px;
+    padding: 0px 20px;
     color: #002e40;
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
@@ -54,19 +54,33 @@ header .intro-text .intro-heading {
     text-transform: inherit;
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 75px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 75px;
-    color: #b5343a;
+    color: #fff;
 }
 
-#search {
-    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
-    padding: 60px 60px 60px 65px;
+.search-box {
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 40px;
 }
 
 .search-box input,
 .search-box button {
-    height: 50px;
+    height: 60px;
+    border: none;
+}
+
+.search-box button {
+    background-color: #00435C;
+    color: #fff;
+    font-weight: 500;
+}
+
+.search-box button:hover,
+.search-box button:active,
+.search-box button:focus {
+    background-color: #002e40;
+    color: #fff;
 }
 
 @media (min-width: 1024px) {
@@ -211,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-shrink img {
 
     /* make things invisible upon start */
-    -webkit-animation:fadeIn 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -webkit-animation:fadeIn 1;  /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
     -moz-animation:fadeIn 1;
     animation:fadeIn 1;
 
