@@ -217,6 +217,14 @@ fieldset[disabled] .btn-xl.active {
         height: auto;
         max-width: 1em;
     }
+
+    .navbar-nav > li {
+        font-size: 0.8em;
+    }
+
+    .nav > li > a {
+        padding: 10px 10px;
+    }
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -506,6 +514,15 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.participant-heading {
+    font-size: 28px;
+}
+
+.participants {
+    font-size: 18px;
+    font-weight: 300;
+}
+
 th {
     font-size: 18px;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -554,6 +571,10 @@ section#contact .text-danger {
     color: #6b0000;
     background-color: #ffbaba;
     border-radius:.5em;
+}
+
+ul.social-buttons li a {
+    background-color: #5a5b5e;
 }
 
 ul.social-buttons li a:hover,

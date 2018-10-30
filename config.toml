@@ -190,7 +190,7 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.en.params.about.events]]
 				img = "fr.png"
 				title = "Bilingual"
-				description = "Scholars Portal Dataverse is available in both English and French. Bilingual functionality means users can view Dataverse in their language of preference."
+				description = "Scholars Portal Dataverse is available in both English and French. Bilingual functionality means users can access Dataverse in their language of preference."
 
 			[[languages.en.params.about.events]]
 				img = "institution.png"
@@ -218,128 +218,192 @@ defaultContentLanguageInSubdir = "false"
 		# Partners section
 		[languages.en.params.clients_list]
 			enable = true
-			title="Participating Institutions"
-			subtitle=""
+			title = "Participating Institutions"
+			subtitle = "The following institutions are participating in the Scholars Portal Dataverse service."
 
-			# All the clients' logos are stored under 'static/img/logos'.
-			# Replace them with your client's logos.
-			# Ideal dimensions are 250x100
+			[[languages.en.params.clients_list.section]]
+				title = "Ontario"
+				id = "ON"
 
-			[[languages.en.params.clients]]
-				logo = "Algoma.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/algoma"
-				alt = "Algoma University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/algoma"
+					name = "Algoma University"
 
-			[[languages.en.params.clients]]
-				logo = "Brock.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/brock"
-				alt = "Brock University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/brock"
+					name = "Brock University"
 
-			[[languages.en.params.clients]]
-				logo = "Carleton.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/carleton"
-				alt = "Carleton University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/carleton"
+					name = "Carleton University"
 
-			[[languages.en.params.clients]]
-				logo = "Lakehead.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/lakehead"
-				alt = "Lakehead University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/lakehead"
+					name = "Lakehead University"
 
-			[[languages.en.params.clients]]
-				logo = "Laurentian.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/laurentian"
-				alt = "Laurentian University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/laurentian"
+					name = "Laurentian University"
 
-			[[languages.en.params.clients]]
-				logo = "McMaster.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/mcmaster"
-				alt = "McMaster University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/mcmaster"
+					name = "McMaster University"
 
-			[[languages.en.params.clients]]
-				logo = "Nipissing.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/nipissing"
-				alt = "Nipissing University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/nipissing"
+					name = "Nipissing University"
 
-			[[languages.en.params.clients]]
-				logo = "OCAD.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/ocad"
-				alt = "OCAD University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/ocad"
+					name = "OCAD University"
 
-			[[languages.en.params.clients]]
-				logo = "Queens.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/queens"
-				alt = "Queen's University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/queens"
+					name = "Queen's University"
 
-			[[languages.en.params.clients]]
-				logo = "RMCC.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/rmc"
-				alt = "Royal Military College"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/rmc"
+					name = "Royal Military College"
 
-			[[languages.en.params.clients]]
-				logo = "Ryerson.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/ryerson"
-				alt = "Ryerson University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/ryerson"
+					name = "Ryerson University"
 
-			[[languages.en.params.clients]]
-				logo = "Trent.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/trent"
-				alt = "Trent University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/trent"
+					name = "Trent University"
 
-			[[languages.en.params.clients]]
-				logo = "Calgary.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/calgary"
-				alt = "University of Calgary"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/guelph"
+					name = "University of Guelph"
 
-			[[languages.en.params.clients]]
-				logo = "Guelph.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/guelph"
-				alt = "University of Guelph"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/uoit"
+					name = "University of Ontario Institute of Technology"
 
-			[[languages.en.params.clients]]
-				logo = "UOIT.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/uoit"
-				alt = "University of Ontario Institute of Technology"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/ottawa"
+					name = "University of Ottawa"
 
-			[[languages.en.params.clients]]
-				logo = "Ottawa.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/ottawa"
-				alt = "University of Ottawa"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/toronto"
+					name = "University of Toronto"
 
-			[[languages.en.params.clients]]
-				logo = "Regina.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/regina"
-				alt = "University of Regina"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/waterloo"
+					name = "University of Waterloo"
 
-			[[languages.en.params.clients]]
-				logo = "Toronto.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/toronto"
-				alt = "University of Toronto"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/windsor"
+					name = "University of Windsor"
 
-			[[languages.en.params.clients]]
-				logo = "Waterloo.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/waterloo"
-				alt = "University of Waterloo"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/westernu"
+					name = "Western University"
 
-			[[languages.en.params.clients]]
-				logo = "Windsor.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/windsor"
-				alt = "University of Windsor"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/laurier"
+					name = "Wilfrid Laurier University"
 
-			[[languages.en.params.clients]]
-				logo = "Western.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/westernu"
-				alt = "Western University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/york"
+					name = "York University"
 
-			[[languages.en.params.clients]]
-				logo = "Laurier.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/laurier"
-				alt = "Wilfrid Laurier University"
+			[[languages.en.params.clients_list.section]]
+				title = "Western Canada"
+				id = "WEST"
 
-			[[languages.en.params.clients]]
-				logo = "York.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/york"
-				alt = "York University"
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/calgary"
+					name = "University of Calgary"
 
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/regina"
+					name = "University of Regina"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/uvic"
+					name = "University of Victoria"
+
+			[[languages.en.params.clients_list.section]]
+				title = "Quebec"
+				id = "QC"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Bishop’s University"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Concordia University"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université Laval"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "McGill University"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université de Montréal"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "HEC Montréal"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Polytechnique Montréal"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université de Sherbrooke"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec – Siège social"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec à Montréal"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec à Trois-Rivières"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec à Chicoutimi"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec à Rimouski"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec en Outaouais"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec en Abitibi-Témiscamingue"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Institut national de la recherche scientifique"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "École nationale d’administration publique"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "École de technologie supérieure"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université TÉLUQ"
 
 		# FAQ section
 		[languages.en.params.faq]
@@ -398,8 +462,8 @@ defaultContentLanguageInSubdir = "false"
 			id = "10"
 
 			[[languages.en.params.faq.questions]]
-			question = "Will Scholars Portal Dataverse share information about my data with any third-party providers? (e.g. Google)"
-			answer = "In short, yes, if you choose to make it public. It may be shared in the following ways: <ul><li> By default, any data that are uploaded and released openly are harvestable by other Dataverses, repositories, search engines etc. The Dataverse platform supports the Open Archives Initiative (OAI) harvesting protocol OAI-PMH, which allows published and public files to be harvested by other systems for the purposes of data discovery. </li><li> The Data Sharing API is another way developers can access publicly shared data and metadata for use in other systems or applications. </li><li> In accordance with the Scholars Portal Dataverse Terms of Use, the SHARE Notification System will access only metadata for those studies which have been released publicly. All study and file-level restrictions on the data are maintained. In all cases, only data and metadata that have been publicly released are exposed to others through the programming interfaces and applications.</li></ul>Overall, the exposure of public data and metadata greatly enables data discovery across multiple platforms and increases the likelihood that your data will be found and reused."
+			question = "Will Scholars Portal Dataverse share information about my data with any third-party providers (e.g. Google)? "
+			answer = "In short, yes, if you choose to make it public. It may be shared in the following ways: <br><br><ul><li> By default, any data that are uploaded and released openly are harvestable by other Dataverses, repositories, search engines etc. The Dataverse platform supports the Open Archives Initiative (OAI) harvesting protocol OAI-PMH, which allows published and public files to be harvested by other systems for the purposes of data discovery. </li><li> The Data Sharing API is another way developers can access publicly shared data and metadata for use in other systems or applications. </li><li> In accordance with the Scholars Portal Dataverse Terms of Use, the SHARE Notification System will access only metadata for those studies which have been released publicly. All study and file-level restrictions on the data are maintained. In all cases, only data and metadata that have been publicly released are exposed to others through the programming interfaces and applications.</li></ul>Overall, the exposure of public data and metadata greatly enables data discovery across multiple platforms and increases the likelihood that your data will be found and reused."
 			id = "11"
 
 		[[languages.en.params.faq.questions]]
@@ -510,7 +574,7 @@ defaultContentLanguageInSubdir = "false"
 			title = ""
 			subtitle = "Store, share, publish and discover research data!"
 			buttonText = "En savoir plus"
-			buttonText2 ="Explore Dataverse"
+			buttonText2 ="Explorer Dataverse"
 
 		# Benefits section
 		[languages.fr.params.services]
@@ -574,7 +638,7 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.fr.params.about.events]]
 				img = "fr.png"
 				title = "Bilingual functionality"
-				description = "Scholars Portal Dataverse is available in both English and French. Bilingual functionality means users can view Dataverse in their language of preference."
+				description = "Scholars Portal Dataverse is available in both English and French. Bilingual functionality means users can access Dataverse in their language of preference."
 
 			[[languages.fr.params.about.events]]
 				img = "institution.png"
@@ -602,127 +666,192 @@ defaultContentLanguageInSubdir = "false"
 		# Partners section
 		[languages.fr.params.clients_list]
 			enable = true
-			title="Participants"
+			title="Partners"
 			subtitle=""
 
-			# All the clients' logos are stored under 'static/img/logos'.
-			# Replace them with your clients's logos.
-			# Ideal dimensions are 250x100
+			[[languages.fr.params.clients_list.section]]
+				title = "Ontario"
+				id = "ON"
 
-			[[languages.fr.params.clients]]
-				logo = "Algoma.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/algoma"
-				alt = "Algoma University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/algoma"
+					name = "Algoma University"
 
-			[[languages.fr.params.clients]]
-				logo = "Brock.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/brock"
-				alt = "Brock University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/brock"
+					name = "Brock University"
 
-			[[languages.fr.params.clients]]
-				logo = "Carleton.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/carleton"
-				alt = "Carleton University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/carleton"
+					name = "Carleton University"
 
-			[[languages.fr.params.clients]]
-				logo = "Lakehead.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/lakehead"
-				alt = "Lakehead University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/rmc"
+					name = "Collège militaire royal du Canada"
 
-			[[languages.fr.params.clients]]
-				logo = "Laurentian.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/laurentian"
-				alt = "Université Laurentienne"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/lakehead"
+					name = "Lakehead University"
 
-			[[languages.fr.params.clients]]
-				logo = "McMaster.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/mcmaster"
-				alt = "McMaster University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/mcmaster"
+					name = "McMaster University"
 
-			[[languages.fr.params.clients]]
-				logo = "Nipissing.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/nipissing"
-				alt = "Nipissing University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/nipissing"
+					name = "Nipissing University"
 
-			[[languages.fr.params.clients]]
-				logo = "OCAD.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/ocad"
-				alt = "OCAD University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/ocad"
+					name = "OCAD University"
 
-			[[languages.fr.params.clients]]
-				logo = "Queens.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/queens"
-				alt = "Queen's University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/queens"
+					name = "Queen's University"
 
-			[[languages.fr.params.clients]]
-				logo = "RMCC.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/rmc"
-				alt = "Royal Military College"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/ryerson"
+					name = "Ryerson University"
 
-			[[languages.fr.params.clients]]
-				logo = "Ryerson.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/ryerson"
-				alt = "Ryerson University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/trent"
+					name = "Trent University"
 
-			[[languages.fr.params.clients]]
-				logo = "Trent.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/trent"
-				alt = "Trent University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/guelph"
+					name = "University of Guelph"
 
-			[[languages.fr.params.clients]]
-				logo = "Calgary.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/calgary"
-				alt = "University of Calgary"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/uoit"
+					name = "University of Ontario Institute of Technology"
 
-			[[languages.fr.params.clients]]
-				logo = "Guelph.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/guelph"
-				alt = "University of Guelph"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/ottawa"
+					name = "Université d’Ottawa"
 
-			[[languages.fr.params.clients]]
-				logo = "UOIT.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/uoit"
-				alt = "University of Ontario Institute of Technology"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/laurentian"
+					name = "Université Laurentienne"
 
-			[[languages.fr.params.clients]]
-				logo = "Ottawa.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/ottawa"
-				alt = "Université d’Ottawa"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/toronto"
+					name = "University of Toronto"
 
-			[[languages.fr.params.clients]]
-				logo = "Regina.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/regina"
-				alt = "University of Regina"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/waterloo"
+					name = "University of Waterloo"
 
-			[[languages.fr.params.clients]]
-				logo = "Toronto.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/toronto"
-				alt = "University of Toronto"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/windsor"
+					name = "University of Windsor"
 
-			[[languages.fr.params.clients]]
-				logo = "Waterloo.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/waterloo"
-				alt = "University of Waterloo"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/westernu"
+					name = "Western University"
 
-			[[languages.fr.params.clients]]
-				logo = "Windsor.jpg"
-				link = "https://dataverse.scholarsportal.info/dataverse/windsor"
-				alt = "University of Windsor"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/laurier"
+					name = "Wilfrid Laurier University"
 
-			[[languages.fr.params.clients]]
-				logo = "Western.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/westernu"
-				alt = "Western University"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/york"
+					name = "York University"
 
-			[[languages.fr.params.clients]]
-				logo = "Laurier.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/laurier"
-				alt = "Wilfrid Laurier University"
+			[[languages.fr.params.clients_list.section]]
+				title = "Western Canada"
+				id = "WEST"
 
-			[[languages.fr.params.clients]]
-				logo = "York.png"
-				link = "https://dataverse.scholarsportal.info/dataverse/york"
-				alt = "Université York"
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/calgary"
+					name = "University of Calgary"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/regina"
+					name = "University of Regina"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/uvic"
+					name = "University of Victoria"
+
+			[[languages.fr.params.clients_list.section]]
+				title = "Québec"
+				id = "QC"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Bishop’s University"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Concordia University"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université Laval"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "McGill University"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université de Montréal"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "HEC Montréal"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Polytechnique Montréal"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université de Sherbrooke"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec – Siège social"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec à Montréal"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec à Trois-Rivières"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec à Chicoutimi"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec à Rimouski"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec en Outaouais"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université du Québec en Abitibi-Témiscamingue"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Institut national de la recherche scientifique"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "École nationale d’administration publique"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "École de technologie supérieure"
+
+				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/"
+					name = "Université TÉLUQ"
 
 
 		# FAQ section
@@ -801,7 +930,7 @@ defaultContentLanguageInSubdir = "false"
 		[languages.fr.params.contact]
 			enable = true
 			title = "Nous contacter"
-			subtitle  = '<a href="https://learn.scholarsportal.info/all-guides/dataverse/help">Contact an Ontario university library for local assistance</a>, or use the form below'
+			subtitle  = '<a href="https://learn.scholarsportal.info/all-guides/dataverse/help">Contact your university library for local assistance</a>, or use the form below'
 			buttonText = "Envoyer"
 
 			# 'warning' defines error messages for invalid inputs
