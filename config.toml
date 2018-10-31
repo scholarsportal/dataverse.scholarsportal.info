@@ -314,6 +314,10 @@ defaultContentLanguageInSubdir = "false"
 				id = "WEST"
 
 				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse"
+					name = "University of British Columbia"
+
+				[[languages.en.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/calgary"
 					name = "University of Calgary"
 
@@ -760,6 +764,10 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.fr.params.clients_list.section]]
 				title = "Western Canada"
 				id = "WEST"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse"
+					name = "University of British Columbia"
 
 				[[languages.fr.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/calgary"
