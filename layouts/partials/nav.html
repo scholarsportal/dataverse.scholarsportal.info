@@ -39,6 +39,12 @@
                 </li>
                 {{ end }}
 
+                {{ if .Site.Params.clients_list.enable }}
+                <li>
+                    <a class="page-scroll" href="#partners">{{ with .Site.Params.navigation.clients_list }}{{ . | markdownify }}{{ end }}</a>
+                </li>
+                {{ end }}
+
                 {{ if .Site.Params.portfolio.enable }}
                 <li>
                     <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . | markdownify }}{{ end }}</a>
@@ -48,12 +54,6 @@
                 {{ if .Site.Params.team.enable }}
                 <li>
                     <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
-                </li>
-                {{ end }}
-
-                {{ if .Site.Params.clients_list.enable }}
-                <li>
-                    <a class="page-scroll" href="#partners">{{ with .Site.Params.navigation.clients_list }}{{ . | markdownify }}{{ end }}</a>
                 </li>
                 {{ end }}
 
