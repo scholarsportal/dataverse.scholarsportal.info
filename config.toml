@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = "false"
 		# To provide some metadata for search engines feel free to add a few
 		# information about you and your website.
 		name = "Dataverse"
-		description = "Scholars Portal Dataverse is a publicly accessible Canadian data repository provided as a shared service of the Ontario Council of University Libraries (OCUL). Dataverse can be used by anyone in the world to deposit, share, and archive research data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University, with contributors and adopters across Canada and the world. Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
+		description = "Scholars Portal Dataverse is a repository primarily for research data provided by Scholars Portal on behalf of the Ontario Council of University Libraries (OCUL) and other participating institutions. Anyone in the world is welcome to use Scholars Portal Dataverse to deposit, share, and archive data.Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University.Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
 
 
 		# Navigation
@@ -175,12 +175,12 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.en.params.about.events]]
 				img = "explore.png"
 				title = "Visualization Tools"
-				description = "The Data Explorer is available for tabular data files in Dataverse, so you can explore the full list of variables conveniently through your web browser without any extra software. You can search the list of variables, select specific variables to download, chart and compare selected multiple variables, and view summary statistics."
+				description = "The [Data Explorer](https://learn.scholarsportal.info/all-guides/dataverse/usingdata/#Using-the-Data-Explorer) is available for tabular data files in Dataverse, so you can explore the full list of variables conveniently through your web browser without any extra software. You can search the list of variables, select specific variables to download, chart and compare selected multiple variables, and view summary statistics."
 
 			[[languages.en.params.about.events]]
 				img = "datacite_logo.jpeg"
 				title = "Persistent Identifiers"
-				description = "To help increase the impact of your research, Dataverse assigns Digital Object Identifiers, or DOIs, provided by [DataCite] (https://www.datacite.org/) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
+				description = "To help increase the impact of your research, Dataverse assigns Digital Object Identifiers, or DOIs, provided by [DataCite](https://www.datacite.org/) Canada to your research data. DOIs are persistent identifiers that allow research data to be accessible and citable. DOIs get indexed in DataCite Search, providing persistent links to data, and allows publications to easily reference affiliated data."
 
 			[[languages.en.params.about.events]]
 				img = "discoverability.png"
@@ -417,12 +417,12 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.en.params.faq.questions]]
 			question = "What is a Dataverse?"
-			answer = "A Dataverse is a container for one or more Datasets or Dataverses. Each participating university has a Dataverse that may contain multiple Dataverses and Datasets. A Dataset, for the purposes of Dataverse, is a container for a particular research data set which can include research data, documentation, code and associated metadata."
+			answer = "A Dataverse is a container for one or more Datasets or Dataverses. Each participating institution has a Dataverse that may contain multiple Dataverses and Datasets. A Dataset, for the purposes of Dataverse, is a container for a particular research data set which can include research data, documentation, code and associated metadata."
 			id = "01"
 
 			[[languages.en.params.faq.questions]]
 			question = "Does this service cost anything?"
-			answer = "The Scholars Portal Dataverse service is provided and paid for by the Ontario Council of University Libraries (OCUL) and by other member institutions. There is no direct cost to researchers or other users."
+			answer = "The Scholars Portal Dataverse service is provided as a shared service of Scholars Portal on behalf of the Ontario Council of University Libraries (OCUL) and by other participating institutions. There is no direct cost to researchers or other users."
 			id = "02"
 
 			[[languages.en.params.faq.questions]]
@@ -432,17 +432,17 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.en.params.faq.questions]]
 			question = "What types of files can I upload?"
-			answer = "Dataverse supports the uploading of any file type, including shapefiles, Flexible Image Transport System files, and compressed files. However to make use of the Data explorer feature, you need to upload tabular data files (e.g. Stata, SPSS, R, Excel (xlsx) and CSV). <br><br>Any further questions regarding data downloading, uploading and storage space can be answered by following [this link](http://learn.scholarsportal.info/all-guides/dataverse)."
+			answer = "Dataverse supports the uploading of any file type, including shapefiles, Flexible Image Transport System files, and compressed files. However to make use of the Data explorer feature, you need to upload tabular data files (e.g. Stata, SPSS, R, Excel (xlsx) and CSV). Any further questions regarding data downloading, uploading and storage space can be answered by following this link."
 			id = "04"
 
 			[[languages.en.params.faq.questions]]
 			question = "Can I sign up? How can I deposit data?"
-			answer = "At this time, anyone can sign up for an account and deposit data with Dataverse, although the service is primarily for those affiliated with a participating university, including students, researchers, faculty, and staff. We ask that you abide by the [Scholars Portal Terms of Use](https://learn.scholarsportal.info/all-guides/dataverse/terms-of-use/) when signing up for an account and using the platform. Sign up [on the Dataverse platform](https://dataverse.scholarsportal.info/dataverseuser.xhtml?editMode=CREATE)."
+			answer = "At this time, anyone can sign up for an account and deposit data with Dataverse, although the service is primarily for those affiliated with a participating institution, including students, researchers, faculty, and staff. We ask that you abide by the [Scholars Portal Terms of Use](https://learn.scholarsportal.info/all-guides/dataverse/terms-of-use/) when signing up for an account and using the platform. Sign up [on the Dataverse platform](https://dataverse.scholarsportal.info/dataverseuser.xhtml?editMode=CREATE)."
 			id = "05"
 
 			[[languages.en.params.faq.questions]]
 			question = "Will my data be protected and safe?"
-			answer = "Dataverse allows you to upload data and store it in case your local copy is lost or damaged. Scholars Portal makes backup copies of the data you upload to Dataverse regularly in the event of a server or system malfunction, malicious attack, or other technical issue. <br><br> Security is in place to protect your data from others who wish to exploit or access data that they are not authorized to, including sensitive data. Any data uploaded to Scholars Portal Dataverse can be restricted to only authorized users. You can easily manage the restrictions of your Dataverse and studies to be private, available to only certain IPs, to individual account(s) or to specific groups. See the Permissions sections of [the Dataverse guide](http://learn.scholarsportal.info/all-guides/dataverse) for more information."
+			answer = "Dataverse allows you to upload data and store it in case your local copy is lost or damaged. Scholars Portal makes backup copies of the data you upload to Dataverse regularly in the event of a server or system malfunction, malicious attack, or other technical issue. <br><br> Security is in place to protect your data from others who wish to exploit or access data for which they are not authorized to. Any data uploaded to Scholars Portal Dataverse can be restricted to only authorized users. You can easily manage the restrictions of your Dataverse and studies to be private, available to only certain IPs, to individual account(s) or to specific groups. See the Permissions sections of [the Dataverse guide](http://learn.scholarsportal.info/all-guides/dataverse) for more information."
 			id = "06"
 
 			[[languages.en.params.faq.questions]]
@@ -470,15 +470,15 @@ defaultContentLanguageInSubdir = "false"
 			answer = "In short, yes, if you choose to make it public. It may be shared in the following ways: <br><br><ul><li> By default, any data that are uploaded and released openly are harvestable by other Dataverses, repositories, search engines etc. The Dataverse platform supports the Open Archives Initiative (OAI) harvesting protocol OAI-PMH, which allows published and public files to be harvested by other systems for the purposes of data discovery. </li><li> The Data Sharing API is another way developers can access publicly shared data and metadata for use in other systems or applications. </li><li> In accordance with the Scholars Portal Dataverse Terms of Use, the SHARE Notification System will access only metadata for those studies which have been released publicly. All study and file-level restrictions on the data are maintained. In all cases, only data and metadata that have been publicly released are exposed to others through the programming interfaces and applications.</li></ul>Overall, the exposure of public data and metadata greatly enables data discovery across multiple platforms and increases the likelihood that your data will be found and reused."
 			id = "11"
 
-		[[languages.en.params.faq.questions]]
-		question = "Will there be any ownership issues with the data I deposit?"
-		answer = "Since Dataverse is a service of your university library, you and your institution retain control of the data at all times. Scholars Portal Dataverse is hosted completely on Canadian servers, so there’s no question about jurisdiction or what laws apply."
-		id = "12"
+			[[languages.en.params.faq.questions]]
+			question = "Will there be any ownership issues with the data I deposit?"
+			answer = "Since Dataverse is a service of your university library, you and your institution retain control of the data at all times. Scholars Portal Dataverse is hosted completely on Canadian servers, so there’s no question about jurisdiction or what laws apply."
+			id = "12"
 
-		[[languages.en.params.faq.questions]]
-		question = "Can Dataverse integrate with other research tools?"
-		answer = "Dataverse is integrated with the [Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse 4.0. See the [OSF Guide](http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas."
-		id = "13"
+			[[languages.en.params.faq.questions]]
+			question = "Can Dataverse integrate with other research tools?"
+			answer = "Dataverse is integrated with the [Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services. See the [OSF Guide](http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas."
+			id = "13"
 
 
 		# Contact section
