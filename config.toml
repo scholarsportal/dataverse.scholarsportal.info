@@ -89,6 +89,10 @@ defaultContentLanguageInSubdir = "false"
 		name = "Dataverse"
 		description = "Scholars Portal Dataverse is a repository primarily for research data provided by Scholars Portal on behalf of the Ontario Council of University Libraries (OCUL) and other participating institutions. Anyone in the world is welcome to use Scholars Portal Dataverse to deposit, share, and archive research data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University.Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
 
+		# 404 error customization
+		[languages.en.params.error404]
+			heading = "Page not found"
+			text = "Return to [the home page](/)"
 
 		# Navigation
 		[languages.en.params.navigation]
@@ -536,6 +540,10 @@ defaultContentLanguageInSubdir = "false"
 		name = "Dataverse"
 		description = "Scholars Portal Dataverse est un dépôt de données de recherche offert par Scholars Portal pour le compte du Conseil des bibliothèques universitaires de l'Ontario (CBUO) et d’autres institutions participantes. Toute personne peut utiliser Dataverse pour déposer, partager et archiver des données de recherche. Dataverse est un logiciel libre développé par l'Institute for Quantitative Social Sciences (IQSS) à Harvard. Les chercheurs peuvent utiliser Dataverse pour déposer leurs données, créer des métadonnées, publier et partager des données de façon ouverte ou restreinte, visualiser et explorer les données ainsi que chercher des données."
 
+		# 404 error customization
+		[languages.fr.params.error404]
+			heading = "Page introuvable"
+			text = "Retour à [la page d’accueil](/)"
 
 		# Navigation
 		[languages.fr.params.navigation]
@@ -563,7 +571,7 @@ defaultContentLanguageInSubdir = "false"
 		# postpended links
 		[[languages.fr.menu.postpend]]
 			url = "https://dvtest.scholarsportal.info/loginpage.xhtml"
-			name = "Login <i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>"
+			name = "Se connecter <i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>"
 			weight = 20
 
 		# Hero section
@@ -647,13 +655,13 @@ defaultContentLanguageInSubdir = "false"
 
 		# Use Cases section
 		[languages.fr.params.portfolio]
-			enable = true
+			enable = false
 			# All projects defined in their own files. You can find example projects
 			# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 			# at the root of this Hugo site.
 			# For more information take a look at the README.
 			title = "Use Cases"
-			subtitle = "How Are Researchers Using Dataverse?"
+			subtitle = ""
 
 			[languages.fr.params.portfolio.modal]
 				client = "Client"
@@ -665,7 +673,7 @@ defaultContentLanguageInSubdir = "false"
 		# Partners section
 		[languages.fr.params.clients_list]
 			enable = true
-			title="Partners"
+			title="Partenaires"
 			subtitle="Les institutions qui suivent participent à Scholars Portal Dataverse :"
 
 			[[languages.fr.params.clients_list.section]]
@@ -861,11 +869,11 @@ defaultContentLanguageInSubdir = "false"
 		[languages.fr.params.faq]
 			enable = true
 			title = "FAQ"
-			subtitle = "Frequently Asked Questions"
+			subtitle = "Foire aux questions"
 
 			[[languages.fr.params.faq.questions]]
-			question = "What is a Dataverse?"
-			answer = "A Dataverse is a container for one or more Datasets or Dataverses. Each Ontario University has a Dataverse that may contain multiple Dataverses and Datasets. A Dataset, for the purposes of Dataverse, is a container for a particular research data set which can include research data, documentation, code and associated metadata."
+			question = "Qu'est-ce qu'un dataverse?"
+			answer = "Un dataverse est un contenant pour un ou plus d'un ensemble de données ou de dataverses. Chaque université dans le Dataverse de Scholars Portal a un dataverse institutionnel pouvant contenir de nombreux dataverses et ensembles de données. Un ensemble de données est un contenant pour un ensemble précis de données (ce qui comprend les données de recherche, les codes et la documentation)."
 			id = "01"
 
 			[[languages.fr.params.faq.questions]]
@@ -874,13 +882,13 @@ defaultContentLanguageInSubdir = "false"
 			id = "02"
 
 			[[languages.fr.params.faq.questions]]
-			question = "What can I upload?"
-			answer = "Dataverse is ideal for depositing and sharing research data, and supports a variety of research data types and formats. You are welcome to upload research data, supplementary tables and documentation, publications associated with data, presentations, etc."
+			question = "Qui peut déposer des données?"
+			answer = "À l'heure actuelle, tout le monde peut s'inscrire pour obtenir un compte et déposer des données dans Dataverse. Les institutions participantes ont accès à un dataverse institutionnel que peuvent utiliser leurs étudiants, chercheurs, professeurs et employés.<br><br>Nous vous demandons de vous conformer aux [conditions d'utilisation de Scholars Portal]() pour vous inscrire et utiliser la plateforme."
 			id = "03"
 
 			[[languages.fr.params.faq.questions]]
 			question = "Quels types de fichiers puis-je téléverser?"
-			answer = "Dataverse supports the uploading of any file type, including shapefiles, Flexible Image Transport System files, and compressed files. However to make use of the Data explorer feature, you need to upload tabular data files (e.g. Stata, SPSS, R, Excel (xlsx) and CSV). <br><br>Any further questions regarding data downloading, uploading and storage space can be answered by following [this link](http://learn.scholarsportal.info/all-guides/dataverse)."
+			answer = "Dataverse est conçu pour y déposer et partager des données de recherche et prend en charge une variété de types et de formats de données de recherche. Nous vous invitons à téléverser des données de recherche brutes, des tables supplémentaires, des métadonnées, de la documentation, du code, des publications liées aux données, des présentations, etc.<br><br>Dataverse prend en charge le téléversement de tous les types dont les fichiers SIG, les images et les fichiers compressés. Toutefois, pour utiliser l’outil Data Explorer, vous devez téléverser des fichiers de données tabulaires (Stata, SPSS, R, Excel (.xlsx) et CSV).<br><br>Pour en savoir plus à propos du téléchargement et du téléversement des données ainsi que de la limite de taille pour les fichiers, [voir notre guide d'utilisation complet](http://learn.scholarsportal.info/all-guides/dataverse)."
 			id = "04"
 
 			[[languages.fr.params.faq.questions]]
@@ -933,25 +941,25 @@ defaultContentLanguageInSubdir = "false"
 		[languages.fr.params.contact]
 			enable = true
 			title = "Nous contacter"
-			subtitle  = '<a href="https://learn.scholarsportal.info/all-guides/dataverse/help">Contact your university library for local assistance</a>, or use the form below'
+			subtitle  = '<a href="https://learn.scholarsportal.info/all-guides/dataverse/help">Pour obtenir du soutien, contactez la bibliothèque de votre institution</a> ou utilisez le formulaire ci-dessous.'
 			buttonText = "Envoyer"
 
 			# 'warning' defines error messages for invalid inputs
 			[languages.fr.params.contact.form.name]
 				text = "Votre nom *"
-				warning = "Veuillez entrer votre nom."
+				warning = "Tapez votre nom, svp."
 
 			[languages.fr.params.contact.form.email]
 				text = "Votre email *"
-				warning = "Veuillez entrer votre addresse de courriel."
+				warning = "Tapez votre courriel, svp."
 
 			[languages.fr.params.contact.form.phone]
 				text = "Votre organization *"
-				warning = "Veuillez entrer votre organisation."
+				warning = "Tapez le nom de votre organisation, svp."
 
 			[languages.fr.params.contact.form.message]
 				text = "Votre message *"
-				warning = "Veuillez entrer un message."
+				warning = "Tapez votre message, svp."
 
 		# Footer section
 		[languages.fr.params.footer]

@@ -1,5 +1,9 @@
 {{ "<!-- FAQ Section -->" | safeHTML }}
+{{ if eq .Lang "fr" }}
+<section id="faq" class="">
+{{ else }}
 <section id="faq" class="bg-light-gray">
+{{ end }}
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">

@@ -10,14 +10,9 @@
       <div class="container">
         <div class="404">
           <div class="intro-text">
-            <div class="intro-heading">Page not found</div>
-
             {{ with .Site.Params.error404 }}
-            <div class="intro-lead-in">{{ .heading | markdownify }}</div>
-
+            <div class="intro-heading">{{ .heading | markdownify }}</div>
             <div class="intro-lead-in">{{ .text | markdownify }}</div>
-            {{ else }}
-            <div class="intro-lead-in"><a href="{{ .Site.BaseURL }}">Return to the home page</a>.</div>
             {{ end }}
 
           </div>
