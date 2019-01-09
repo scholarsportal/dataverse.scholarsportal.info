@@ -131,6 +131,9 @@ defaultContentLanguageInSubdir = "false"
 			subtitle = "Store, share, publish and discover research data!"
 			buttonText = "Tell me more"
 			buttonText2 = "Explore Dataverse"
+			orText = "or"
+			navToggle = "Toggle navigation"
+			placeholder = "Search Dataverse"
 
 		# Benefits section
 		[languages.en.params.services]
@@ -333,85 +336,85 @@ defaultContentLanguageInSubdir = "false"
 					link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 					name = "University of Victoria"
 
-			[[languages.en.params.clients_list.section]]
-				title = "Quebec"
-				id = "QC"
+			# [[languages.en.params.clients_list.section]]
+			# 	title = "Quebec"
+			# 	id = "QC"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Bishop’s University"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Bishop’s University"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Concordia University"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Concordia University"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université Laval"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université Laval"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "McGill University"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "McGill University"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université de Montréal"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université de Montréal"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "HEC Montréal"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "HEC Montréal"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Polytechnique Montréal"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Polytechnique Montréal"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université de Sherbrooke"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université de Sherbrooke"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec – Siège social"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec – Siège social"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec à Montréal"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec à Montréal"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec à Trois-Rivières"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec à Trois-Rivières"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec à Chicoutimi"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec à Chicoutimi"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec à Rimouski"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec à Rimouski"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec en Outaouais"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec en Outaouais"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec en Abitibi-Témiscamingue"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec en Abitibi-Témiscamingue"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Institut national de la recherche scientifique"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Institut national de la recherche scientifique"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "École nationale d’administration publique"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "École nationale d’administration publique"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "École de technologie supérieure"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "École de technologie supérieure"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université TÉLUQ"
+			# 	[[languages.en.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université TÉLUQ"
 
 		# FAQ section
 		[languages.en.params.faq]
@@ -549,10 +552,10 @@ defaultContentLanguageInSubdir = "false"
 		[languages.fr.params.navigation]
 			brand = "Dataverse"
 			services = "Avantages"
-			about = "Caractéristiques"
-			portfolio = "Use Cases"
+			about = "Fonctionnalités"
+			portfolio = "Exemples"
 			team = "Team"
-			clients_list = "Participants"
+			clients_list = "Partenaires"
 			pricing = "Pricing"
 			faq = "FAQ"
 			contact = "Contact"
@@ -582,6 +585,9 @@ defaultContentLanguageInSubdir = "false"
 			subtitle = "Déposez, partagez, publiez, consultez des données de recherche!"
 			buttonText = "En savoir plus"
 			buttonText2 ="Explorer Dataverse"
+			orText = "ou"
+			navToggle = "Activer/désactiver la navigation"
+			placeholder = "Rechercher dans Dataverse"
 
 		# Benefits section
 		[languages.fr.params.services]
@@ -765,10 +771,10 @@ defaultContentLanguageInSubdir = "false"
 					name = "York University"
 
 			[[languages.fr.params.clients_list.section]]
-				title = "Western Canada"
+				title = "Ouest Canadien"
 				id = "WEST"
 
-				[[languages.en.params.clients_list.section.clients]]
+				[[languages.fr.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse"
 					name = "University of British Columbia"
 
@@ -784,85 +790,85 @@ defaultContentLanguageInSubdir = "false"
 					link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 					name = "University of Victoria"
 
-			[[languages.fr.params.clients_list.section]]
-				title = "Québec"
-				id = "QC"
+			# [[languages.fr.params.clients_list.section]]
+			# 	title = "Québec"
+			# 	id = "QC"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Bishop’s University"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Bishop’s University"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Concordia University"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Concordia University"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université Laval"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université Laval"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "McGill University"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "McGill University"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université de Montréal"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université de Montréal"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "HEC Montréal"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "HEC Montréal"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Polytechnique Montréal"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Polytechnique Montréal"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université de Sherbrooke"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université de Sherbrooke"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec – Siège social"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec – Siège social"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec à Montréal"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec à Montréal"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec à Trois-Rivières"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec à Trois-Rivières"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec à Chicoutimi"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec à Chicoutimi"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec à Rimouski"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec à Rimouski"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec en Outaouais"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec en Outaouais"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université du Québec en Abitibi-Témiscamingue"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université du Québec en Abitibi-Témiscamingue"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Institut national de la recherche scientifique"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Institut national de la recherche scientifique"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "École nationale d’administration publique"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "École nationale d’administration publique"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "École de technologie supérieure"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "École de technologie supérieure"
 
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/"
-					name = "Université TÉLUQ"
+			# 	[[languages.fr.params.clients_list.section.clients]]
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/"
+			# 		name = "Université TÉLUQ"
 
 
 		# FAQ section
@@ -883,7 +889,7 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.fr.params.faq.questions]]
 			question = "Qui peut déposer des données?"
-			answer = "À l'heure actuelle, tout le monde peut s'inscrire pour obtenir un compte et déposer des données dans Dataverse. Les institutions participantes ont accès à un dataverse institutionnel que peuvent utiliser leurs étudiants, chercheurs, professeurs et employés.<br><br>Nous vous demandons de vous conformer aux [conditions d'utilisation de Scholars Portal]() pour vous inscrire et utiliser la plateforme."
+			answer = "À l'heure actuelle, tout le monde peut s'inscrire pour obtenir un compte et déposer des données dans Dataverse. Les institutions participantes ont accès à un dataverse institutionnel que peuvent utiliser leurs étudiants, chercheurs, professeurs et employés.<br><br>Nous vous demandons de vous conformer aux [conditions d'utilisation de Scholars Portal](https://learn.scholarsportal.info/all-guides/dataverse/terms-of-use/) pour vous inscrire et utiliser la plateforme."
 			id = "03"
 
 			[[languages.fr.params.faq.questions]]
@@ -892,49 +898,44 @@ defaultContentLanguageInSubdir = "false"
 			id = "04"
 
 			[[languages.fr.params.faq.questions]]
-			question = "Can I sign up? How can I deposit data?"
-			answer = "At this time, anyone can sign up for an account and deposit data with Dataverse, although the service is primarily for those affiliated with an Ontario University, including students, researchers, faculty, and staff. We ask that you abide by the [Scholars Portal Terms of Use](https://learn.scholarsportal.info/all-guides/dataverse/terms-of-use/) when signing up for an account and using the platform. Sign up [on the Dataverse platform](https://dataverse.scholarsportal.info/dataverseuser.xhtml?editMode=CREATE)."
+			question = "Mes données sont-elles protégées et sécuritaires?"
+			answer = "Dataverse vous permet de téléverser et de stocker des copies de sauvegarde de vos données de recherche en cas de perte ou de destruction d'une copie locale. Il est préférable de conserver une copie de vos données de recherche dans Dataverse.<br><br>La consultation de tout ensemble de données téléversés dans Scholars Portal Dataverse peut être restreinte aux usagers de votre choix. Vous pouvez facilement gérer les restrictions d'un dataverse ou d'un ensemble de données pour qu'il soit complètement privé, accessible pour certaines adresses IP, à certains usagers ou à certains groupes d'usagers spécifiques (voir la section sur les permissions dans notre guide ou consulter [le Advanced Dataverse User Guide (en)]((https://dataverse.scholarsportal.info/guides/en/4.8.6/user/index.html) pour plus de détails).<br><br>Les paramètres de sécurité protègent vos données de toute forme d'exploitation ou d'accès par des tiers non autorisés. Scholars Portal effectue régulièrement des copies de sauvegarde de données que vous téléversez en cas de mauvais fonctionnement du serveur ou du système, d'actes malveillants ou de tout problème technique.<br><br>Nous vous encourageons à partager vos données de façon ouverte comme bonne pratique scientifique. Autant que possible, nous vous encourageons à rendre les résultats de vos recherches accessibles au public aux fins de consultation et de réutilisation."
 			id = "05"
 
 			[[languages.fr.params.faq.questions]]
-			question = "Will my data be protected and safe?"
-			answer = "Dataverse allows you to upload data and store it in case your local copy is lost or damaged. Scholars Portal makes backup copies of the data you upload to Dataverse regularly in the event of a server or system malfunction, malicious attack, or other technical issue. <br><br> Security is in place to protect your data from others who wish to exploit or access data that they are not authorized to, including sensitive data. Any data uploaded to Scholars Portal Dataverse can be restricted to only authorized users. You can easily manage the restrictions of your Dataverse and studies to be private, available to only certain IPs, to individual account(s) or to specific groups. See the Permissions sections of [the Dataverse guide](http://learn.scholarsportal.info/all-guides/dataverse) for more information."
+			question = "Comment puis-je collaborer à un dataverse avec mes collègues chercheurs?"
+			answer = "Dataverse supporte les groupes de chercheurs et le partage de données collaboratives. Cette fonctionnalité est pratique pour les projets d'ampleur avec des chercheurs dispersés à différents endroits. Pour plus d'information sur l'utilisation des permissions de groupe et l'attribution de rôle aux comptes, rendez-vous à la section « Permissions » du présent guide ou consultez le [Guide d'utilisation avancée de Dataverse (en)](https://dataverse.scholarsportal.info/guides/en/4.8.6/user/index.html)."
 			id = "06"
-
-			[[languages.fr.params.faq.questions]]
-			question = "Can a group of researchers sign up together to load data collaboratively?"
-			answer = "Dataverse also supports groups of researchers who wish to upload and collaborate on a study or Dataverse together. This is useful for large projects with multiple researchers in different locations. For more information about how to use group permissions and assign account roles, see the Permission sections of this guide or visit the [Advanced Dataverse User Guide](https://dataverse.scholarsportal.info/guides/en/4.8.6/user/index.html) created by Harvard."
-			id = "07"
 
 			[[languages.fr.params.faq.questions]]
 			question = "J'aimerais utiliser Dataverse pour collaborer avec mon équipe de chercheurs, mais je ne veux pas publier mes données. Mon ensemble de données ou mon dataverse doivent-ils être publiés avant que je puisse les partager?"
 			answer = "Non, un ensembles de données ou un dataverse n'a pas besoin d'être publié pour être partager. Voir [le guide d'utilisation](https://learn.scholarsportal.info/all-guides/dataverse/datasets/#Datasets-and-Restricted-File-Permissions) pour plus de détails."
+			id = "07"
+
+			[[languages.fr.params.faq.questions]]
+			question = "Devrais-je déposer mes données dans un dataverse institutionnel ou dans le dataverse racine de Scholars Portal?"
+			answer = "Les chercheurs peuvent opter pour le téléversement de leurs données dans un dataverse institutionnel s'ils souhaitent partager leurs travaux et les associer à leur institution (pour, par exemple, aider à la collaboration interinstitutionnelle, répondre aux exigences d'organismes subventionnaires, etc.). <br><br> Le dataverse racine de Scholars Portal peut être utilisé par les chercheurs non affiliés à l'une ou l'autre des institutions membres pour téléverser leurs données, par les chercheurs qui effectuent des travaux de recherche personnels ou encore dans le cas de travaux de recherche multi-institutionnels."
 			id = "08"
 
 			[[languages.fr.params.faq.questions]]
-			question = "Do I need to deposit my data into an institutional dataverse to make it available?"
-			answer = "Researchers may choose to deposit their data in an institutional dataverse if they want to share their work with their institution (e.g. to facilitate collaboration, meet grant requirements, etc.).<br><br> The Scholars Portal root dataverse may be used to deposit data if researchers are not affiliated with one of the listed institution, if they are conducting personal research, or if the research being conducted is multi-institutional."
+			question = "Puis-je citer mes données dans une publication de recherche?"
+			answer = "Dataverse génère automatiquement une citation qui peut être utilisée dans les publications de recherche, permettant d'en attribuer facilement le crédit. Les utilisateurs peuvent télécharger la citation selon différentes normes en cliquant sur le bouton « Citer l'ensemble de données ». La citation comprend une adresse URL persistante qui pointe rapidement et facilement vers votre étude hébergée dans Dataverse.<br><br>Les ensembles de données se verront attribuer un identificateur d'objet numérique (DOI) conformément au service DataCite Canada. Tous les ensembles de données publiés dans Dataverse comportant un DOI seront automatiquement indexés dans [le service de recherche international de DataCite](https://search.datacite.org/)."
 			id = "09"
 
 			[[languages.fr.params.faq.questions]]
-			question = "Puis-je citer mes données dans une publication de recherche?"
-			answer = "Dataverse assigns a Digital Object Identifier (DOI) that conforms to the [DataCite Canada](https://www.nrc-cnrc.gc.ca/eng/publications/library_services/datacite/) principles for identifiers for datasets. By generating a standard data citation, it can be used in any research publication. Users can download the citation in various formats (like EndNote XML, BibTex, etc.) by clicking the 'Cite Data' button on the landing page for a dataset. The citation includes a persistent URL that will point people directly to your study in Dataverse."
-			id = "10"
-
-			[[languages.fr.params.faq.questions]]
 			question = "Est-ce que le Dataverse de Scholars Portal partage de l'information à propos de mes données avec des tiers? (p. ex. Google)"
-			answer = "In short, yes, if you choose to make it public. It may be shared in the following ways: <ul><li> By default, any data that are uploaded and released openly are harvestable by other Dataverses, repositories, search engines etc. The Dataverse platform supports the Open Archives Initiative (OAI) harvesting protocol OAI-PMH, which allows published and public files to be harvested by other systems for the purposes of data discovery. </li><li> The Data Sharing API is another way developers can access publicly shared data and metadata for use in other systems or applications. </li><li> In accordance with the Scholars Portal Dataverse Terms of Use, the SHARE Notification System will access only metadata for those studies which have been released publicly. All study and file-level restrictions on the data are maintained. In all cases, only data and metadata that have been publicly released are exposed to others through the programming interfaces and applications.</li></ul>Overall, the exposure of public data and metadata greatly enables data discovery across multiple platforms and increases the likelihood that your data will be found and reused."
-			id = "11"
+			answer = "Par défaut, toutes les métadonnées relatives aux données publiées dans Dataverse sont moissonnables par d'autres dataverses, dépôts, moteurs de recherche internationaux, etc. Dataverse est moissonné régulièrement par le robot d'indexation de Google et toutes les métadonnées ouvertes sont indexées et recherchables à partir du moteur de recherche de Google. La plateforme de Dataverse appuie les API ouvertes et le protocole de moissonnage de l'Open Archives Initiative (OAI-PMH), qui permet aux fichiers publiés et publics d'être moissonnés par d'autres systèmes aux fins de découverte des données à l'échelle internationale.<br><br>Scholars Portal collabore avec [le Shared Access Research Ecosystem (SHARE)](http://www.share-research.org/) et [le Dépôt fédéré de données de recherche du Canada (DFDR)](https://www.frdr.ca/repo/?locale=fr) pour intégrer les ensembles de données publiés et publics aux services de découverte du web ouvert. Le système de notification de SHARE est une initiative universitaire pour consolider l'identification, la découverte et le suivi de travaux de recherche. Son objectif est d'agréger et de faire découvrir différents types de travaux de recherche (y compris les données). Le Dataverse de Scholars Portal a été le premier service de dataverse à partager des métadonnées dans le système de notification de SHARE. Ceci n'a aucun impact sur le flux de travail des contributeurs du Dataverse de Scholars Portal.<br><br>Conformément aux [Conditions d'utilisation du Dataverse de Scholars Portal](https://learn.scholarsportal.info/all-guides/dataverse/terms-of-use/), seules les données et les métadonnées publiées par le contributeur sont partagées avec les utilisateurs au moyen de l'interface de programmation et des applications de moissonnage de métadonnées."
+			id = "10"
 
 			[[languages.fr.params.faq.questions]]
 			question = "À qui appartiennent les données que je dépose?"
 			answer = "Puisque Dataverse est un service de votre bibliothèque universitaire, vous, comme chercheur, et dans certains cas votre institution ou encore vos collaborateurs, demeurez en contrôle et conservez les droits liés à vos données. Le service Dataverse de Scholars Portal est hébergé sur des serveurs canadiens à Toronto, Ontario, ce qui ne soulève aucune question par rapport à la juridiction ou aux lois applicables."
-			id = "12"
+			id = "11"
 
 			[[languages.fr.params.faq.questions]]
 			question = "Dataverse s'intègre-t-il à d'autres outils de recherche?"
 			answer = "Dataverse s'intègre à l'[Open Science Framework (OSF)](https://osf.io/), qui offre la gestion infonuagique de vos projets et vous permet de conserver l'ensemble de vos dossiers de projets, de vos données et protocoles à un même endroit centralisé. L'OSF peut également être connectée à de nombreux autres services externes de stockage, y compris Dataverse 4.0. Veuillez consulter le [Guide OSF](http://help.osf.io/m/addons/l/524149-storage-add-ons) pour plus d'information. Cette fonctionnalité est particulièrement utile si vous collaborez avec des membres en région éloignée."
-			id = "13"
+			id = "12"
 
 
 		# Contact section

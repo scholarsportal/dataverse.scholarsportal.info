@@ -8,11 +8,11 @@
                 <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
                 <p class="space-or-text"></p>
                     <a href="#benefits" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
-                    <span class="or-text">or</span>
+                    <span class="or-text">{{ with .Site.Params.hero.orText }}{{ . | markdownify }}{{ end }}</span>
                     <a class="btn btn-xl" href="{{ .Site.BaseURL }}dataverse.xhtml">{{ with .Site.Params.hero.buttonText2 }}{{ . | markdownify }}{{ end }}</a>
                     <form action="{{ .Site.BaseURL }}dataverse/sp?" name="sentMessage" id="searchForm" novalidate>
                         <div class="input-group search-box col-lg-6">
-                            <input name="q" type="text" class="form-control" placeholder="Search Dataverse" aria-label="Search Dataverse">
+                            <input name="q" type="text" class="form-control" placeholder="{{ with .Site.Params.hero.placeholder }}{{ . | markdownify }}{{ end }}" aria-label="{{ with .Site.Params.hero.placeholder }}{{ . | markdownify }}{{ end }}">
                             <span class="input-group-btn">
                                 <button class="btn btn-lg btn-default" type="submit" title="Search"><i class="fa fa-search" aria-label="search"></i>
                                 </button>

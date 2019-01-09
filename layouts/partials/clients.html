@@ -10,7 +10,8 @@
 
         <div class="row text-center">
                 {{ range .Site.Params.clients_list.section }}
-                <div class="col-lg-4">
+                <!--<div class="col-lg-4">-->
+                    <div class="col-lg-12">
                     <h3 class="participant-heading">{{ .title }}</h3>
                     <div class="participants" id="{{ .id }}">
                         {{ range .clients }}
