@@ -87,7 +87,7 @@ defaultContentLanguageInSubdir = "false"
 		# To provide some metadata for search engines feel free to add a few
 		# information about you and your website.
 		name = "Dataverse"
-		description = "Scholars Portal Dataverse is a repository primarily for research data provided by Scholars Portal on behalf of the Ontario Council of University Libraries (OCUL) and other participating institutions. Anyone in the world is welcome to use Scholars Portal Dataverse to deposit, share, and archive research data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University.Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
+		description = "Scholars Portal Dataverse is a repository primarily for research data provided by Scholars Portal on behalf of the Ontario Council of University Libraries (OCUL) and other participating institutions. Anyone in the world is welcome to use Scholars Portal Dataverse to deposit, share, and archive research data. Dataverse is an open-source tool developed by the Institute for Quantitative Social Sciences (IQSS) at Harvard University. Researchers can use Dataverse to directly deposit data, create metadata, release and share data openly or privately, visualize and explore data, and search for data."
 
 		# 404 error customization
 		[languages.en.params.error404]
@@ -119,8 +119,8 @@ defaultContentLanguageInSubdir = "false"
 
 		# postpended links
 		[[languages.en.menu.postpend]]
-			url = "https://dvtest.scholarsportal.info/loginpage.xhtml"
-			name = "Login <i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>"
+			url = "/loginpage.xhtml"
+			name = "Login"
 			weight = 20
 
 		# Hero section
