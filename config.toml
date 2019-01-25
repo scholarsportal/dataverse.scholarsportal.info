@@ -146,7 +146,7 @@ defaultContentLanguageInSubdir = "false"
 				[[languages.en.params.services.row.list]]
 					icon = "fa-unlock"
 					title = "Open"
-					description = "Dataverse is a publicly accessible data repository platform, open to researchers and the public to deposit and share research data openly with anyone in the world. Dataverse is free to use, and is built with open-source software."
+					description = "Dataverse is a publicly accessible data repository platform, open to affiliated researchers to deposit and share research data openly with anyone in the world. Dataverse is free to use, and is built with open-source software."
 
 				[[languages.en.params.services.row.list]]
 					icon = "fa-table"
@@ -600,7 +600,7 @@ defaultContentLanguageInSubdir = "false"
 				[[languages.fr.params.services.row.list]]
 					icon = "fa-unlock"
 					title = "C’est ouvert et libre"
-					description = "Dataverse est une plateforme de dépôt de données ouverte aux chercheurs et au public pour déposer et partager des données de recherche partout dans le monde. Dataverse est un logiciel libre et son utilisation est gratuite pour les utilisateurs."
+					description = "Dataverse est une plateforme de dépôt de données ouverte aux chercheurs affiliés pour déposer et partager des données de recherche partout dans le monde. Dataverse est un logiciel libre et son utilisation est gratuite pour les utilisateurs."
 
 				[[languages.fr.params.services.row.list]]
 					icon = "fa-table"
