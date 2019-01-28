@@ -73,7 +73,7 @@ defaultContentLanguageInSubdir = "false"
 	languageName = "English"
 	languageCode = "en"
 	weight = 1
-	title = ""
+	title = "Scholars Portal Dataverse"
 
 		[languages.en.params]
 
@@ -168,7 +168,7 @@ defaultContentLanguageInSubdir = "false"
 			enable = true
 			title = "Features"
 			subtitle = ""
-			endpoint = "[<br>Contact Us!](#contact)"
+			endpoint = "[<br>Sign up](/dataverseuser.xhtml?editMode=CREATE)"
 
 			# The events will be listed from the top to the bottom.
 			# All images are stored under 'static/img/about'.
@@ -622,7 +622,7 @@ defaultContentLanguageInSubdir = "false"
 		enable = true
 			title = "Fonctionnalités"
 			subtitle = ""
-			endpoint = "[<br>Contactez nous !](#contact)"
+			endpoint = "[<br>S'inscrire](/dataverseuser.xhtml?editMode=CREATE)"
 
 			# The events will be listed from the top to the bottom.
 			# All images are stored under 'static/img/about'.
