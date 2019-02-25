@@ -321,7 +321,7 @@ defaultContentLanguageInSubdir = "false"
 				id = "WEST"
 
 				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse"
+					link = "https://dataverse.scholarsportal.info/dataverse/ubc"
 					name = "University of British Columbia"
 
 				[[languages.en.params.clients_list.section.clients]]
