@@ -31,9 +31,12 @@ defaultContentLanguageInSubdir = "false"
 	favicon    = ""
 
 	# Optional piwik tracking
-	#[params.analytics.piwik]
-	#  URL = "https://analytics.scholarsportal.info"
-	#  ID = ""
+	[params.analytics.piwik]
+	  URL = "https://analytics.scholarsportal.info"
+	  # Production ID
+	  ID = "47"
+	  # DemoDV ID
+	  # ID = "17"
 	#  # Track all subdomains with "*.example.com"
 	#  domain = "www.ask.scholarsportal.info"
 	#  # Optional integrity check hash
@@ -599,22 +602,22 @@ defaultContentLanguageInSubdir = "false"
 
 				[[languages.fr.params.services.row.list]]
 					icon = "fa-unlock"
-					title = "C’est ouvert et libre"
+					title = "Ouvert et libre"
 					description = "Dataverse est une plateforme de dépôt de données ouverte aux chercheurs affiliés pour déposer et partager des données de recherche partout dans le monde. Dataverse est un logiciel libre et son utilisation est gratuite pour les utilisateurs."
 
 				[[languages.fr.params.services.row.list]]
 					icon = "fa-table"
-					title = "C’est facile à explorer"
+					title = "Facile à explorer"
 					description = "Visualisez et explorez les données directement dans votre navigateur. Examinez des résumés et des visualisations de variables contenues à l’intérieur des ensembles de données publiés dans Dataverse. L’outil Dataverse Data Explorer supporte les formats de fichiers les plus répandus compatibles avec Stata, SPSS, R et Microsoft Excel (incluant les fichiers CSV)."
 
 				[[languages.fr.params.services.row.list]]
 					icon = "fa-lock"
-					title = "C’est sécure"
+					title = "Sécuritaire"
 					description = "Dataverse permet la création de conditions d’utilisation personnalisées et la gestion de restriction d’accès à vos données. Dataverse utilise les identifiants uniques et facilite l’accès à long terme ainsi que la conservation des données en produisant des copies de sauvegarde."
 
 				[[languages.fr.params.services.row.list]]
 					icon = "fa-users"
-					title = "C’est collaboratif"
+					title = "Collaboratif"
 					description = "Recevez le crédit et la reconnaissance académique que vous méritez en rendant vos données plus accessibles à la communauté scientifique en ligne. Collaborez avec votre équipe et suivez à la trace les versions de votre ensemble de données."
 
 		# Features section
@@ -680,7 +683,7 @@ defaultContentLanguageInSubdir = "false"
 		[languages.fr.params.clients_list]
 			enable = true
 			title="Partenaires"
-			subtitle="Les institutions qui suivent participent à Scholars Portal Dataverse :"
+			subtitle="Les institutions qui suivantes participent à Scholars Portal Dataverse :"
 
 			[[languages.fr.params.clients_list.section]]
 				title = "Ontario"
