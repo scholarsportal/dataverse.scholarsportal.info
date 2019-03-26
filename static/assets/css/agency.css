@@ -26,14 +26,6 @@ p.large {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-}
-
 a {
     color: #fed136;
 }
@@ -236,7 +228,6 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    outline: 0;
     color: #fed136;
 }
 
@@ -843,7 +834,6 @@ ul.social-buttons li a {
     border-radius: 100%;
     font-size: 20px;
     line-height: 40px;
-    outline: 0;
     color: #fff;
     background-color: #222;
     -webkit-transition: all .3s;
@@ -855,13 +845,6 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #fed136;
-}
-
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-    outline: 0;
 }
 
 .portfolio-modal .modal-content {
