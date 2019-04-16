@@ -268,6 +268,10 @@ defaultContentLanguageInSubdir = "false"
 					name = "OCAD University"
 
 				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/uoit"
+					name = "Ontario Tech University"
+
+				[[languages.en.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/queens"
 					name = "Queen's University"
 
@@ -286,10 +290,6 @@ defaultContentLanguageInSubdir = "false"
 				[[languages.en.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/guelph"
 					name = "University of Guelph"
-
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/uoit"
-					name = "University of Ontario Institute of Technology"
 
 				[[languages.en.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/ottawa"
@@ -722,6 +722,10 @@ defaultContentLanguageInSubdir = "false"
 					name = "OCAD University"
 
 				[[languages.fr.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/uoit"
+					name = "Ontario Tech University"
+
+				[[languages.fr.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/queens"
 					name = "Queen's University"
 
@@ -736,10 +740,6 @@ defaultContentLanguageInSubdir = "false"
 				[[languages.fr.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/guelph"
 					name = "University of Guelph"
-
-				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/uoit"
-					name = "University of Ontario Institute of Technology"
 
 				[[languages.fr.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/ottawa"
