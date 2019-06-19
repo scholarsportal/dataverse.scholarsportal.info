@@ -488,6 +488,10 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+section#features h2 {
+    padding-bottom: 1em;
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(0, 46, 64, 1);
 }
