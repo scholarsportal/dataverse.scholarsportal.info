@@ -243,9 +243,9 @@ defaultContentLanguageInSubdir = "false"
 				# 	link = "https://dataverse.scholarsportal.info/dataverse/dal"
 				# 	name = "Dalhousie University"
 
-				# [[languages.en.params.clients_list.section.clients]]
-				# 	link = "https://dataverse.scholarsportal.info/dataverse/stfx"
-				# 	name = "St. Francis Xavier University"
+				 [[languages.en.params.clients_list.section.clients]]
+				 	link = "https://dataverse.scholarsportal.info/dataverse/stfx"
+				 	name = "St. Francis Xavier University"
 
 			[[languages.en.params.clients_list.section]]
 				title = "Ontario"
@@ -351,17 +351,17 @@ defaultContentLanguageInSubdir = "false"
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/ets"
 			# 		name = "École de technologie supérieure"
 
-			# 	[[languages.en.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/enap"
-			# 		name = "École nationale d’administration publique"
+			 	[[languages.en.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/enap"
+			 		name = "École nationale d’administration publique"
 
 				[[languages.en.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/hec"
 					name = "HEC Montréal"
 
-			# 	[[languages.en.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/inrs"
-			# 		name = "Institut national de la recherche scientifique"
+			 	[[languages.en.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/inrs"
+			 		name = "Institut national de la recherche scientifique"
 
 			# 	[[languages.en.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/mcgill"
@@ -407,9 +407,9 @@ defaultContentLanguageInSubdir = "false"
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/sherbrooke"
 			# 		name = "Université de Sherbrooke"
 
-			# 	[[languages.en.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/teluq"
-			# 		name = "Université TÉLUQ"
+			 	[[languages.en.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/teluq"
+			 		name = "Université TÉLUQ"
 
 		[[languages.en.params.clients_list.section]]
 			title = "Western Canada"
@@ -719,9 +719,9 @@ defaultContentLanguageInSubdir = "false"
 				# 	link = "https://dataverse.scholarsportal.info/dataverse/dal"
 				# 	name = "Dalhousie University"
 
-				# [[languages.fr.params.clients_list.section.clients]]
-				# 	link = "https://dataverse.scholarsportal.info/dataverse/stfx"
-				# 	name = "St. Francis Xavier University"
+				 [[languages.fr.params.clients_list.section.clients]]
+				 	link = "https://dataverse.scholarsportal.info/dataverse/stfx"
+				 	name = "St. Francis Xavier University"
 
 			[[languages.fr.params.clients_list.section]]
 				title = "Ontario"
@@ -851,17 +851,17 @@ defaultContentLanguageInSubdir = "false"
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/ets"
 			# 		name = "École de technologie supérieure"
 
-			# 	[[languages.fr.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/enap"
-			# 		name = "École nationale d’administration publique"
+			 	[[languages.fr.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/enap"
+			 		name = "École nationale d’administration publique"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/hec"
 				name = "HEC Montréal"
 
-			# 	[[languages.fr.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/inrs"
-			# 		name = "Institut national de la recherche scientifique"
+			 	[[languages.fr.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/inrs"
+			 		name = "Institut national de la recherche scientifique"
 
 			# 	[[languages.fr.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/mcgill"
@@ -911,9 +911,9 @@ defaultContentLanguageInSubdir = "false"
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/sherbrooke"
 			# 		name = "Université de Sherbrooke"
 
-			# 	[[languages.fr.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/teluq"
-			# 		name = "Université TÉLUQ"
+			 	[[languages.fr.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/teluq"
+			 		name = "Université TÉLUQ"
 
 		# FAQ section
 		[languages.fr.params.faq]
