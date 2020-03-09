@@ -239,9 +239,13 @@ defaultContentLanguageInSubdir = "false"
 					link = "https://dataverse.scholarsportal.info/dataverse/capebreton"
 					name = "Cape Breton University"
 
-				# [[languages.en.params.clients_list.section.clients]]
-				# 	link = "https://dataverse.scholarsportal.info/dataverse/dal"
-				# 	name = "Dalhousie University"
+				 [[languages.en.params.clients_list.section.clients]]
+				 	link = "https://dataverse.scholarsportal.info/dataverse/dal"
+				 	name = "Dalhousie University"
+
+				 [[languages.en.params.clients_list.section.clients]]
+				 	link = "https://dataverse.scholarsportal.info/dataverse/memorial"
+				 	name = "Memorial University"
 
 				 [[languages.en.params.clients_list.section.clients]]
 				 	link = "https://dataverse.scholarsportal.info/dataverse/stfx"
@@ -715,9 +719,13 @@ defaultContentLanguageInSubdir = "false"
 					link = "https://dataverse.scholarsportal.info/dataverse/capebreton"
 					name = "Cape Breton University"
 
-				# [[languages.fr.params.clients_list.section.clients]]
-				# 	link = "https://dataverse.scholarsportal.info/dataverse/dal"
-				# 	name = "Dalhousie University"
+				 [[languages.fr.params.clients_list.section.clients]]
+				 	link = "https://dataverse.scholarsportal.info/dataverse/dal"
+				 	name = "Dalhousie University"
+
+				 [[languages.fr.params.clients_list.section.clients]]
+				 	link = "https://dataverse.scholarsportal.info/dataverse/memorial"
+				 	name = "Memorial University"
 
 				 [[languages.fr.params.clients_list.section.clients]]
 				 	link = "https://dataverse.scholarsportal.info/dataverse/stfx"
