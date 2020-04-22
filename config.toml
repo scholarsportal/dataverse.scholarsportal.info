@@ -46,7 +46,7 @@ defaultContentLanguageInSubdir = "false"
     # Pricing section - see layouts/partials/pricing.html
     [params.pricing]
     	enable = false
-    	title = "Pricing"
+    	title = ""
     	subtitle = ""
 
 
@@ -171,7 +171,7 @@ defaultContentLanguageInSubdir = "false"
 			enable = true
 			title = "Features"
 			subtitle = ""
-			endpoint = "[<br>Sign up](/dataverseuser.xhtml?editMode=CREATE)"
+			endpoint = "[<br>Sign up](/loginpage.xhtml)"
 
 			# The events will be listed from the top to the bottom.
 			# All images are stored under 'static/img/about'.
@@ -423,6 +423,10 @@ defaultContentLanguageInSubdir = "false"
 			#	link = "https://dataverse.scholarsportal.info/dataverse/brandon"
 			#	name = "Brandon University"
 
+			#[[languages.en.params.clients_list.section.clients]]
+			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
+			#	name = "Royal Roads University"
+
 			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/ubc"
 				name = "University of British Columbia"
@@ -438,6 +442,22 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 				name = "University of Victoria"
+
+		# Funding source logos
+		[languages.en.params.subclients_list]
+			enable = true
+			title = ""
+			subtitle = "Additional funding support for Scholars Portal Dataverse has been provided by Canarie and The Portage Network."
+
+			[[languages.en.params.subclient1]]
+				link = "https://www.canarie.ca"
+				logo = "canarie.png"
+				alt = "Canarie"
+
+			[[languages.en.params.subclient2]]
+				link = "https://portagenetwork.ca/"
+				logo = "portage.png"
+				alt = "The Portage Network"
 
 		# FAQ section
 		[languages.en.params.faq]
@@ -651,7 +671,7 @@ defaultContentLanguageInSubdir = "false"
 		enable = true
 			title = "Fonctionnalités"
 			subtitle = ""
-			endpoint = "[<br>S'inscrire](/dataverseuser.xhtml?editMode=CREATE)"
+			endpoint = "[<br>S'inscrire](/loginpage.xhtml)"
 
 			# The events will be listed from the top to the bottom.
 			# All images are stored under 'static/img/about'.
@@ -827,6 +847,10 @@ defaultContentLanguageInSubdir = "false"
 			#	link = "https://dataverse.scholarsportal.info/dataverse/brandon"
 			#	name = "Brandon University"
 
+			#[[languages.fr.params.clients_list.section.clients]]
+			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
+			#	name = "Royal Roads University"
+
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/ubc"
 				name = "University of British Columbia"
@@ -922,6 +946,22 @@ defaultContentLanguageInSubdir = "false"
 			 	[[languages.fr.params.clients_list.section.clients]]
 			 		link = "https://dataverse.scholarsportal.info/dataverse/teluq"
 			 		name = "Université TÉLUQ"
+
+		# Funding source logos
+		[languages.fr.params.subclients_list]
+			enable = true
+			title = ""
+			subtitle = "Un soutien financer supplémentaire pour Scholars Portal Dataverse a été fourni par Canarie et le réseau Portage."
+
+			[[languages.fr.params.subclient1]]
+				link = "https://www.canarie.ca"
+				logo = "canarie.png"
+				alt = "Canarie"
+
+			[[languages.fr.params.subclient2]]
+				link = "https://portagenetwork.ca/"
+				logo = "portage.png"
+				alt = "le réseau Portage"
 
 		# FAQ section
 		[languages.fr.params.faq]
