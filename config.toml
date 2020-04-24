@@ -10,6 +10,11 @@ googleAnalytics = ""
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = "false"
 
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
 [params]
 
 	# Since this template is static, the contact form uses www.formspree.io as a
@@ -447,7 +452,7 @@ defaultContentLanguageInSubdir = "false"
 		[languages.en.params.subclients_list]
 			enable = true
 			title = ""
-			subtitle = "Additional funding support for Scholars Portal Dataverse has been provided by Canarie and The Portage Network."
+			subtitle = "Additional funding support for Scholars Portal Dataverse has been provided by CANARIE and The Portage Network."
 
 			[[languages.en.params.subclient1]]
 				link = "https://www.canarie.ca"
@@ -951,7 +956,7 @@ defaultContentLanguageInSubdir = "false"
 		[languages.fr.params.subclients_list]
 			enable = true
 			title = ""
-			subtitle = "Un soutien financer supplémentaire pour Scholars Portal Dataverse a été fourni par Canarie et le réseau Portage."
+			subtitle = "Un soutien financer supplémentaire pour Scholars Portal Dataverse a été fourni par CANARIE et le réseau Portage."
 
 			[[languages.fr.params.subclient1]]
 				link = "https://www.canarie.ca"
