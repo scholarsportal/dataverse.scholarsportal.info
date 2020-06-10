@@ -441,6 +441,10 @@ defaultContentLanguageInSubdir = "false"
 				name = "University of Calgary"
 
 			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/unbc"
+				name = "University of Northern British Columbia"
+
+			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/regina"
 				name = "University of Regina"
 
@@ -863,6 +867,10 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/calgary"
 				name = "University of Calgary"
+
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/unbc"
+				name = "University of Northern British Columbia"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/regina"
