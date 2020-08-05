@@ -372,9 +372,9 @@ defaultContentLanguageInSubdir = "false"
 			 		link = "https://dataverse.scholarsportal.info/dataverse/inrs"
 			 		name = "Institut national de la recherche scientifique"
 
-			# 	[[languages.en.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/mcgill"
-			# 		name = "McGill University"
+			 	[[languages.en.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/mcgill"
+			 		name = "McGill University"
 
 				[[languages.en.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/polymtl"
@@ -880,9 +880,9 @@ defaultContentLanguageInSubdir = "false"
 				link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 				name = "University of Victoria"
 
-			[[languages.fr.params.clients_list.section]]
-				title = "Québec"
-				id = "QC"
+		[[languages.fr.params.clients_list.section]]
+			title = "Québec"
+			id = "QC"
 
 			# 	[[languages.fr.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/bishops"
@@ -896,21 +896,21 @@ defaultContentLanguageInSubdir = "false"
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/ets"
 			# 		name = "École de technologie supérieure"
 
-			 	[[languages.fr.params.clients_list.section.clients]]
-			 		link = "https://dataverse.scholarsportal.info/dataverse/enap"
-			 		name = "École nationale d’administration publique"
+			[[languages.fr.params.clients_list.section.clients]]
+			 	link = "https://dataverse.scholarsportal.info/dataverse/enap"
+			 	name = "École nationale d’administration publique"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/hec"
 				name = "HEC Montréal"
 
-			 	[[languages.fr.params.clients_list.section.clients]]
-			 		link = "https://dataverse.scholarsportal.info/dataverse/inrs"
-			 		name = "Institut national de la recherche scientifique"
+			[[languages.fr.params.clients_list.section.clients]]
+			 	link = "https://dataverse.scholarsportal.info/dataverse/inrs"
+			 	name = "Institut national de la recherche scientifique"
 
-			# 	[[languages.fr.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/mcgill"
-			# 		name = "McGill University"
+			[[languages.fr.params.clients_list.section.clients]]
+			 	link = "https://dataverse.scholarsportal.info/dataverse/mcgill"
+			 	name = "McGill University"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/polymtl"
@@ -956,9 +956,9 @@ defaultContentLanguageInSubdir = "false"
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/sherbrooke"
 			# 		name = "Université de Sherbrooke"
 
-			 	[[languages.fr.params.clients_list.section.clients]]
-			 		link = "https://dataverse.scholarsportal.info/dataverse/teluq"
-			 		name = "Université TÉLUQ"
+			[[languages.fr.params.clients_list.section.clients]]
+			 	link = "https://dataverse.scholarsportal.info/dataverse/teluq"
+			 	name = "Université TÉLUQ"
 
 		# Funding source logos
 		[languages.fr.params.subclients_list]
