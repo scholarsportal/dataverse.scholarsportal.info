@@ -515,29 +515,24 @@ defaultContentLanguageInSubdir = "false"
 			id = "08"
 
 			[[languages.en.params.faq.questions]]
-			question = "Should I deposit my data into an institutional dataverse or into the Scholars Portal root Dataverse?"
-			answer = "Researchers may choose to deposit their data in an institutional dataverse if they want to share their work with their institution (e.g. to facilitate collaboration, meet grant requirements, etc.).<br><br> The Scholars Portal root dataverse may be used to deposit data if the research being conducted is multi-institutional. If you are not affiliated with a participating institution, please [contact us](#contact) for more information about depositing in the root dataverse."
-			id = "09"
-
-			[[languages.en.params.faq.questions]]
 			question = "Can I cite my data in a research publication?"
 			answer = "Dataverse automatically generates a standard data citation that can be used in any research publication, so you can easily be given credit. Users can download the citation in various formats by using the “Cite Data” button. The citation includes a persistent URL that will point people quickly and easily to your dataset in Dataverse.<br><br> Datasets will be assigned a Digital Object Identifier (DOI) that conforms to the DataCite Canada service. All datasets published in Dataverse with a DOI will be automatically indexed in [DataCite’s Global Search Service](https://search.datacite.org/)."
-			id = "10"
+			id = "09"
 
 			[[languages.en.params.faq.questions]]
 			question = "Does Scholars Portal Dataverse share information about my data with any third-party providers? (e.g. Google)"
 			answer = "By default, any metadata about published data in Dataverse are harvestable by other Dataverses, repositories, global search engines, etc. Dataverse is regularly crawled by Google and all of the open metadata is indexed and searchable via the Google search service. The Dataverse platform supports open APIs and the Open Archives Initiative (OAI) harvesting protocol (OAI-PMH), which allows published and public files to be harvested by other systems for the purposes of global data discovery.<br><br>Scholars Portal has been working with [the Shared Access Research Ecosystem (SHARE)](http://www.share-research.org/) and [the Canadian Federated Research Data Repository (FRDR)](https://www.frdr.ca) to integrate publicly released datasets into open web discovery services. The SHARE Notification System is a higher education-based initiative to strengthen efforts to identify, discover, and track research outputs. Its goal is to aggregate and make discoverable many types of research outputs (including data). Scholars Portal Dataverse was the first instance of a Dataverse feeding metadata into the SHARE Notification System. This does not affect the workflow for contributors to the Scholars Portal Dataverse.<br><br>In accordance with [the Scholars Portal Dataverse Terms of Use](https://learn.scholarsportal.info/all-guides/dataverse/terms-of-use/), only data and metadata that have been publicly released are exposed to others through the programming interfaces and metadata harvesting application."
-			id = "11"
+			id = "10"
 
 			[[languages.en.params.faq.questions]]
 			question = "Who owns the data I deposit?"
 			answer = "Since Dataverse is a service of your university library, you as the researcher, and in some cases your institution and/or collaborators retain control and ownership of the data. Scholars Portal Dataverse is hosted completely on Canadian servers in Toronto, ON, so there’s no question about jurisdiction or what laws apply."
-			id = "12"
+			id = "11"
 
 			[[languages.en.params.faq.questions]]
 			question = "Can Dataverse integrate with other research tools?"
 			answer = "Dataverse is integrated with [the Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse. See [the OSF Guide](http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas.<br><br>Other integrations are [listed here](https://dataverse.org/integrations)."
-			id = "13"
+			id = "12"
 
 
 		# Contact section
@@ -1023,29 +1018,24 @@ defaultContentLanguageInSubdir = "false"
 			id = "08"
 
 			[[languages.fr.params.faq.questions]]
-			question = "Devrais-je déposer mes données dans un dataverse institutionnel ou dans le dataverse racine de Scholars Portal?"
-			answer = "Les chercheurs peuvent opter pour le téléversement de leurs données dans un dataverse institutionnel s’ils souhaitent partager leurs travaux et les associer à leur institution (pour, par exemple, aider à la collaboration interinstitutionnelle, répondre aux exigences d’organismes subventionnaires, etc.)<br><br>Le dataverse racine de Scholars Portal peut être utilisé pour déposer des données lorsqu’une recherche implique plusieurs institutions. Veuillez [nous contacter](#contact) pour plus d’information à propos du dépôt de données dans le dataverse racine."
-			id = "09"
-
-			[[languages.fr.params.faq.questions]]
 			question = "Puis-je citer mes données dans une publication de recherche?"
 			answer = "Dataverse génère automatiquement une citation qui peut être utilisée dans les publications de recherche, permettant d'en attribuer facilement le crédit. Les utilisateurs peuvent télécharger la citation selon différentes normes en cliquant sur le bouton « Citer l'ensemble de données ». La citation comprend une adresse URL persistante qui pointe rapidement et facilement vers votre étude hébergée dans Dataverse.<br><br>Les ensembles de données se verront attribuer un identificateur d'objet numérique (DOI) conformément au service DataCite Canada. Tous les ensembles de données publiés dans Dataverse comportant un DOI seront automatiquement indexés dans [le service de recherche international de DataCite](https://search.datacite.org/)."
-			id = "10"
+			id = "09"
 
 			[[languages.fr.params.faq.questions]]
 			question = "Est-ce que le Dataverse de Scholars Portal partage de l'information à propos de mes données avec des tiers? (p. ex. Google)"
 			answer = "Par défaut, toutes les métadonnées relatives aux données publiées dans Dataverse sont moissonnables par d'autres dataverses, dépôts, moteurs de recherche internationaux, etc. Dataverse est moissonné régulièrement par le robot d'indexation de Google et toutes les métadonnées ouvertes sont indexées et recherchables à partir du moteur de recherche de Google. La plateforme de Dataverse appuie les API ouvertes et le protocole de moissonnage de l'Open Archives Initiative (OAI-PMH), qui permet aux fichiers publiés et publics d'être moissonnés par d'autres systèmes aux fins de découverte des données à l'échelle internationale.<br><br>Scholars Portal collabore avec [le Shared Access Research Ecosystem (SHARE)](http://www.share-research.org/) et [le Dépôt fédéré de données de recherche du Canada (DFDR)](https://www.frdr.ca/repo/?locale=fr) pour intégrer les ensembles de données publiés et publics aux services de découverte du web ouvert. Le système de notification de SHARE est une initiative universitaire pour consolider l'identification, la découverte et le suivi de travaux de recherche. Son objectif est d'agréger et de faire découvrir différents types de travaux de recherche (y compris les données). Le Dataverse de Scholars Portal a été le premier service de dataverse à partager des métadonnées dans le système de notification de SHARE. Ceci n'a aucun impact sur le flux de travail des contributeurs du Dataverse de Scholars Portal.<br><br>Conformément aux [Conditions d'utilisation du Dataverse de Scholars Portal](https://learn.scholarsportal.info/fr/guides/dataverse/conditions-dutilisation/), seules les données et les métadonnées publiées par le contributeur sont partagées avec les utilisateurs au moyen de l'interface de programmation et des applications de moissonnage de métadonnées."
-			id = "11"
+			id = "10"
 
 			[[languages.fr.params.faq.questions]]
 			question = "À qui appartiennent les données que je dépose?"
 			answer = "Puisque Dataverse est un service de votre bibliothèque universitaire, vous, comme chercheur, et dans certains cas votre institution ou encore vos collaborateurs, demeurez en contrôle et conservez les droits liés à vos données. Le service Dataverse de Scholars Portal est hébergé sur des serveurs canadiens à Toronto, Ontario, ce qui ne soulève aucune question par rapport à la juridiction ou aux lois applicables."
-			id = "12"
+			id = "11"
 
 			[[languages.fr.params.faq.questions]]
 			question = "Dataverse s'intègre-t-il à d'autres outils de recherche?"
 			answer = "Dataverse s'intègre à l'[Open Science Framework (OSF)](https://osf.io/), qui offre la gestion infonuagique de vos projets et vous permet de conserver l'ensemble de vos dossiers de projets, de vos données et protocoles à un même endroit centralisé. L'OSF peut également être connectée à de nombreux autres services externes de stockage, y compris Dataverse 4.0. Veuillez consulter le [Guide OSF](http://help.osf.io/m/addons/l/524149-storage-add-ons) pour plus d'information. Cette fonctionnalité est particulièrement utile si vous collaborez avec des membres en région éloignée."
-			id = "13"
+			id = "12"
 
 
 		# Contact section
