@@ -424,9 +424,9 @@ defaultContentLanguageInSubdir = "false"
 			title = "Western Canada"
 			id = "WEST"
 
-			#[[languages.en.params.clients_list.section.clients]]
-			#	link = "https://dataverse.scholarsportal.info/dataverse/brandon"
-			#	name = "Brandon University"
+			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/brandon"
+				name = "Brandon University"
 
 			#[[languages.en.params.clients_list.section.clients]]
 			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
@@ -852,9 +852,9 @@ defaultContentLanguageInSubdir = "false"
 			title = "Ouest Canadien"
 			id = "WEST"
 
-			#[[languages.fr.params.clients_list.section.clients]]
-			#	link = "https://dataverse.scholarsportal.info/dataverse/brandon"
-			#	name = "Brandon University"
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/brandon"
+				name = "Brandon University"
 
 			#[[languages.fr.params.clients_list.section.clients]]
 			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
