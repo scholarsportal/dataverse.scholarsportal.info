@@ -526,7 +526,7 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.en.params.faq.questions]]
 			question = "Who owns the data I deposit?"
-			answer = "Since Dataverse is a service of your university library, you as the researcher, and in some cases your institution and/or collaborators retain control and ownership of the data. Scholars Portal Dataverse is hosted completely on Canadian servers in Toronto, ON, so there’s no question about jurisdiction or what laws apply."
+			answer = "Since Dataverse is a service of your university library, you as the researcher, and in some cases your institution and/or collaborators retain control and ownership of the data. Scholars Portal Dataverse is hosted completely on Canadian servers in Toronto, ON."
 			id = "11"
 
 			[[languages.en.params.faq.questions]]
@@ -1029,7 +1029,7 @@ defaultContentLanguageInSubdir = "false"
 
 			[[languages.fr.params.faq.questions]]
 			question = "À qui appartiennent les données que je dépose?"
-			answer = "Puisque Dataverse est un service de votre bibliothèque universitaire, vous, comme chercheur, et dans certains cas votre institution ou encore vos collaborateurs, demeurez en contrôle et conservez les droits liés à vos données. Le service Dataverse de Scholars Portal est hébergé sur des serveurs canadiens à Toronto, Ontario, ce qui ne soulève aucune question par rapport à la juridiction ou aux lois applicables."
+			answer = "Puisque Dataverse est un service de votre bibliothèque universitaire, vous, comme chercheur, et dans certains cas votre institution ou encore vos collaborateurs, demeurez en contrôle et conservez les droits liés à vos données. Le service Dataverse de Scholars Portal est hébergé sur des serveurs canadiens à Toronto, Ontario."
 			id = "11"
 
 			[[languages.fr.params.faq.questions]]
