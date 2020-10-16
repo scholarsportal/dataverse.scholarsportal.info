@@ -381,10 +381,6 @@ defaultContentLanguageInSubdir = "false"
 					name = "Polytechnique Montréal"
 
 				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/laval"
-					name = "Université Laval"
-
-				[[languages.en.params.clients_list.section.clients]]
 					link = "https://dataverse.scholarsportal.info/dataverse/montreal"
 					name = "Université de Montréal"
 
@@ -392,9 +388,9 @@ defaultContentLanguageInSubdir = "false"
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqss"
 			# 		name = "Université du Québec – Siège social"
 
-			# 	[[languages.en.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqc"
-			# 		name = "Université du Québec à Chicoutimi"
+			 	[[languages.en.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/uqac"
+			 		name = "Université du Québec à Chicoutimi"
 
 			# 	[[languages.en.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqm"
@@ -415,6 +411,10 @@ defaultContentLanguageInSubdir = "false"
 			# 	[[languages.en.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/sherbrooke"
 			# 		name = "Université de Sherbrooke"
+
+				[[languages.en.params.clients_list.section.clients]]
+					link = "https://dataverse.scholarsportal.info/dataverse/laval"
+					name = "Université Laval"
 
 			 	[[languages.en.params.clients_list.section.clients]]
 			 		link = "https://dataverse.scholarsportal.info/dataverse/teluq"
@@ -912,10 +912,6 @@ defaultContentLanguageInSubdir = "false"
 				name = "Polytechnique Montréal"
 
 			[[languages.fr.params.clients_list.section.clients]]
-				link = "https://dataverse.scholarsportal.info/dataverse/laval"
-				name = "Université Laval"
-
-			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/montreal"
 				name = "Université de Montréal"
 
@@ -923,9 +919,9 @@ defaultContentLanguageInSubdir = "false"
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqss"
 			# 		name = "Université du Québec – Siège social"
 
-			# 	[[languages.fr.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqc"
-			# 		name = "Université du Québec à Chicoutimi"
+			[[languages.fr.params.clients_list.section.clients]]
+			 	link = "https://dataverse.scholarsportal.info/dataverse/uqac"
+			 	name = "Université du Québec à Chicoutimi"
 
 			# 	[[languages.fr.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqm"
@@ -950,6 +946,10 @@ defaultContentLanguageInSubdir = "false"
 			# 	[[languages.fr.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/sherbrooke"
 			# 		name = "Université de Sherbrooke"
+
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/laval"
+				name = "Université Laval"
 
 			[[languages.fr.params.clients_list.section.clients]]
 			 	link = "https://dataverse.scholarsportal.info/dataverse/teluq"
