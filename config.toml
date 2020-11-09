@@ -54,7 +54,6 @@ defaultContentLanguageInSubdir = "false"
     	title = ""
     	subtitle = ""
 
-
 	# Team section (disabled)
 	[params.team]
         enable = false
@@ -73,7 +72,6 @@ defaultContentLanguageInSubdir = "false"
 				["fa-facebook", "#"],
 				["fa-linkedin", "#"]
 			]
-
 
 [languages]
 
@@ -293,7 +291,7 @@ defaultContentLanguageInSubdir = "false"
 					name = "OCAD University"
 
 				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/uoit"
+					link = "https://dataverse.scholarsportal.info/dataverse/ontariotechu"
 					name = "Ontario Tech University"
 
 				[[languages.en.params.clients_list.section.clients]]
@@ -393,7 +391,7 @@ defaultContentLanguageInSubdir = "false"
 			 		name = "Université du Québec à Chicoutimi"
 
 			# 	[[languages.en.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqm"
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqam"
 			# 		name = "Université du Québec à Montréal"
 
 			# 	[[languages.en.params.clients_list.section.clients]]
@@ -792,7 +790,7 @@ defaultContentLanguageInSubdir = "false"
 					name = "OCAD University"
 
 				[[languages.fr.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/uoit"
+					link = "https://dataverse.scholarsportal.info/dataverse/ontariotechu"
 					name = "Ontario Tech University"
 
 				[[languages.fr.params.clients_list.section.clients]]
@@ -924,7 +922,7 @@ defaultContentLanguageInSubdir = "false"
 			 	name = "Université du Québec à Chicoutimi"
 
 			# 	[[languages.fr.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqm"
+			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqam"
 			# 		name = "Université du Québec à Montréal"
 
 			# 	[[languages.fr.params.clients_list.section.clients]]
@@ -1036,7 +1034,6 @@ defaultContentLanguageInSubdir = "false"
 			question = "Dataverse s'intègre-t-il à d'autres outils de recherche?"
 			answer = "Dataverse s'intègre à l'[Open Science Framework (OSF)](https://osf.io/), qui offre la gestion infonuagique de vos projets et vous permet de conserver l'ensemble de vos dossiers de projets, de vos données et protocoles à un même endroit centralisé. L'OSF peut également être connectée à de nombreux autres services externes de stockage, y compris Dataverse 4.0. Veuillez consulter le [Guide OSF](http://help.osf.io/m/addons/l/524149-storage-add-ons) pour plus d'information. Cette fonctionnalité est particulièrement utile si vous collaborez avec des membres en région éloignée."
 			id = "12"
-
 
 		# Contact section
 		[languages.fr.params.contact]
