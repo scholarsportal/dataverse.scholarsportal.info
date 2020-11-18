@@ -426,6 +426,10 @@ defaultContentLanguageInSubdir = "false"
 				link = "https://dataverse.scholarsportal.info/dataverse/brandon"
 				name = "Brandon University"
 
+			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/mru"
+				name = "Mount Royal University"
+
 			#[[languages.en.params.clients_list.section.clients]]
 			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
 			#	name = "Royal Roads University"
@@ -449,6 +453,10 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 				name = "University of Victoria"
+
+			#[[languages.en.params.clients_list.section.clients]]
+			#	link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
+			#	name = "University of Winnipeg"
 
 		# Funding source logos
 		[languages.en.params.subclients_list]
@@ -849,6 +857,10 @@ defaultContentLanguageInSubdir = "false"
 				link = "https://dataverse.scholarsportal.info/dataverse/brandon"
 				name = "Brandon University"
 
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/mru"
+				name = "Mount Royal University"
+
 			#[[languages.fr.params.clients_list.section.clients]]
 			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
 			#	name = "Royal Roads University"
@@ -872,6 +884,10 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 				name = "University of Victoria"
+
+			#[[languages.fr.params.clients_list.section.clients]]
+			#	link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
+			#	name = "University of Winnipeg"
 
 		[[languages.fr.params.clients_list.section]]
 			title = "Québec"
