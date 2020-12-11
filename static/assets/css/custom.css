@@ -488,12 +488,23 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.service-heading {
+    font-size: 18px;
+}
+
 section#features h2 {
     padding-bottom: 1em;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(0, 46, 64, 1);
+}
+
+.timeline .timeline-heading h3.subheading {
+    text-transform: none;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .timeline > li .timeline-image {
@@ -556,6 +567,15 @@ td {
 
 .tab-indent {
     text-indent: 1.5em;
+}
+
+section p.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
 }
 
 section#contact {

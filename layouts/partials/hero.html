@@ -3,7 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="intro-text">
-                <a href="{{ .Site.BaseURL }}dataverse.xhtml"><img alt="Dataverse logo" src="{{ .Site.BaseURL }}assets/img/{{ with .Site.Params.navigation.img }}{{ . | markdownify }}{{ end }}"></a>
+                <h1 class="sr-only">Scholars Portal Dataverse</h1>
+                <img alt="" src="{{ .Site.BaseURL }}assets/img/{{ with .Site.Params.navigation.img }}{{ . | markdownify }}{{ end }}">
                 <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
                 <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
                 <p class="space-or-text"></p>
