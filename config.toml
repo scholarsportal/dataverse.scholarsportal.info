@@ -98,7 +98,7 @@ defaultContentLanguageInSubdir = "false"
 		# 404 error customization
 		[languages.en.params.error404]
 			heading = "Page not found"
-			text = "Return to [the home page](/)"
+			text = "Return to [the home page](/)."
 
 		# Navigation
 		[languages.en.params.navigation]
@@ -458,6 +458,10 @@ defaultContentLanguageInSubdir = "false"
 			#	link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
 			#	name = "University of Winnipeg"
 
+			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/viu"
+				name = "Vancouver Island University"
+
 		# Funding source logos
 		[languages.en.params.subclients_list]
 			enable = true
@@ -605,7 +609,7 @@ defaultContentLanguageInSubdir = "false"
 		# 404 error customization
 		[languages.fr.params.error404]
 			heading = "Page introuvable"
-			text = "Retour à [la page d’accueil](/)"
+			text = "Retour à [la page d’accueil](/)."
 
 		# Navigation
 		[languages.fr.params.navigation]
@@ -888,6 +892,10 @@ defaultContentLanguageInSubdir = "false"
 			#[[languages.fr.params.clients_list.section.clients]]
 			#	link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
 			#	name = "University of Winnipeg"
+
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/viu"
+				name = "Vancouver Island University"
 
 		[[languages.fr.params.clients_list.section]]
 			title = "Québec"
