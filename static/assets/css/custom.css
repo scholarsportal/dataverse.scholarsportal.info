@@ -500,6 +500,12 @@ section#features h2 {
     background: rgba(0, 46, 64, 1);
 }
 
+.portfolio-heading {
+    font-size: 18px;
+    text-transform: none;
+    margin: 0;
+}
+
 .timeline .timeline-heading h3.subheading {
     text-transform: none;
     font-size: 18px;
