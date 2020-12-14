@@ -1089,6 +1089,7 @@ defaultContentLanguageInSubdir = "false"
 			copyright = "&copy; Conseil des bibliotheques universitaires de l'Ontario"
 			logo = "cbuo.png"
 			link = "https://ocul.on.ca"
+			secondcopyright = "Scholars Portal"
 			secondlogo = "sp.png"
 			secondlink = "https://scholarsportal.info/"
 
