@@ -435,6 +435,10 @@ defaultContentLanguageInSubdir = "false"
 			#	name = "Royal Roads University"
 
 			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/twu"
+				name = "Trinity Western University"
+
+			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/ubc"
 				name = "University of British Columbia"
 
@@ -868,6 +872,10 @@ defaultContentLanguageInSubdir = "false"
 			#[[languages.fr.params.clients_list.section.clients]]
 			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
 			#	name = "Royal Roads University"
+
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/twu"
+				name = "Trinity Western University"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/ubc"
