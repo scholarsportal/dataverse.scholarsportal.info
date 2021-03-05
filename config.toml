@@ -35,7 +35,7 @@ defaultContentLanguageInSubdir = "false"
     custom_js  = ["assets/js/custom.js"]
 	favicon    = ""
 
-	# Optional piwik tracking
+	# Optional piwik (matomo) tracking
 	[params.analytics.piwik]
 	  URL = "https://analytics.scholarsportal.info"
 	  # Production ID
@@ -390,9 +390,9 @@ defaultContentLanguageInSubdir = "false"
 			 		link = "https://dataverse.scholarsportal.info/dataverse/uqac"
 			 		name = "Université du Québec à Chicoutimi"
 
-			# 	[[languages.en.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqam"
-			# 		name = "Université du Québec à Montréal"
+			 	[[languages.en.params.clients_list.section.clients]]
+			 		link = "https://dataverse.scholarsportal.info/dataverse/uqam"
+			 		name = "Université du Québec à Montréal"
 
 			# 	[[languages.en.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqr"
@@ -430,9 +430,9 @@ defaultContentLanguageInSubdir = "false"
 				link = "https://dataverse.scholarsportal.info/dataverse/mru"
 				name = "Mount Royal University"
 
-			#[[languages.en.params.clients_list.section.clients]]
-			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
-			#	name = "Royal Roads University"
+			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/rru"
+				name = "Royal Roads University"
 
 			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/twu"
@@ -869,9 +869,9 @@ defaultContentLanguageInSubdir = "false"
 				link = "https://dataverse.scholarsportal.info/dataverse/mru"
 				name = "Mount Royal University"
 
-			#[[languages.fr.params.clients_list.section.clients]]
-			#	link = "https://dataverse.scholarsportal.info/dataverse/RRU"
-			#	name = "Royal Roads University"
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/rru"
+				name = "Royal Roads University"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/twu"
@@ -953,9 +953,9 @@ defaultContentLanguageInSubdir = "false"
 			 	link = "https://dataverse.scholarsportal.info/dataverse/uqac"
 			 	name = "Université du Québec à Chicoutimi"
 
-			# 	[[languages.fr.params.clients_list.section.clients]]
-			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqam"
-			# 		name = "Université du Québec à Montréal"
+			[[languages.fr.params.clients_list.section.clients]]
+			 	link = "https://dataverse.scholarsportal.info/dataverse/uqam"
+			 	name = "Université du Québec à Montréal"
 
 			# 	[[languages.fr.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqr"
