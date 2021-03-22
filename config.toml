@@ -427,6 +427,10 @@ defaultContentLanguageInSubdir = "false"
 				name = "Brandon University"
 
 			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/macewan"
+				name = "MacEwan University"
+
+			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/mru"
 				name = "Mount Royal University"
 
@@ -864,6 +868,10 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/brandon"
 				name = "Brandon University"
+
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/macewan"
+				name = "MacEwan University"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/mru"
