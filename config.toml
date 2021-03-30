@@ -382,10 +382,6 @@ defaultContentLanguageInSubdir = "false"
 					link = "https://dataverse.scholarsportal.info/dataverse/montreal"
 					name = "Université de Montréal"
 
-				[[languages.en.params.clients_list.section.clients]]
-					link = "https://dataverse.scholarsportal.info/dataverse/usb"
-					name = "Université de Saint-Boniface"
-
 			# 	[[languages.en.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqss"
 			# 		name = "Université du Québec – Siège social"
@@ -445,6 +441,10 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/twu"
 				name = "Trinity Western University"
+
+			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/usb"
+				name = "Université de Saint-Boniface"
 
 			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/ubc"
@@ -890,6 +890,10 @@ defaultContentLanguageInSubdir = "false"
 				name = "Trinity Western University"
 
 			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/usb"
+				name = "Université de Saint-Boniface"
+
+			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/ubc"
 				name = "University of British Columbia"
 
@@ -956,10 +960,6 @@ defaultContentLanguageInSubdir = "false"
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/montreal"
 				name = "Université de Montréal"
-
-			[[languages.fr.params.clients_list.section.clients]]
-				link = "https://dataverse.scholarsportal.info/dataverse/usb"
-				name = "Université de Saint-Boniface"
 
 			# 	[[languages.fr.params.clients_list.section.clients]]
 			# 		link = "https://dataverse.scholarsportal.info/dataverse/uqss"
