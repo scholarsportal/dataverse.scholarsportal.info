@@ -1,7 +1,8 @@
 # Site settings
 #baseurl = "https://dvtest.scholarsportal.info/"
 #baseurl = "https://demodv.scholarsportal.info/"
-baseurl = "https://dataverse.scholarsportal.info/"
+#baseurl = "https://dataverse.scholarsportal.info/"
+baseurl = "/"
 title = "Dataverse"
 languageCode = "en-us"
 theme = "hugo-agency-theme"
@@ -9,6 +10,7 @@ theme = "hugo-agency-theme"
 googleAnalytics = ""
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = "false"
+relativeurls = true
 
 [markup]
 	[markup.goldmark]
