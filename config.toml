@@ -256,6 +256,10 @@ relativeurls = true
 				 	link = "https://dataverse.scholarsportal.info/dataverse/stfx"
 				 	name = "St. Francis Xavier University"
 
+				 [[languages.en.params.clients_list.section.clients]]
+				 	link = "https://dataverse.scholarsportal.info/dataverse/smu"
+				 	name = "Saint Mary's University"
+
 			[[languages.en.params.clients_list.section]]
 				title = "Ontario"
 				id = "ON"
@@ -778,6 +782,10 @@ relativeurls = true
 				 [[languages.fr.params.clients_list.section.clients]]
 				 	link = "https://dataverse.scholarsportal.info/dataverse/stfx"
 				 	name = "St. Francis Xavier University"
+
+				 [[languages.fr.params.clients_list.section.clients]]
+				 	link = "https://dataverse.scholarsportal.info/dataverse/smu"
+				 	name = "Saint Mary's University"
 
 			[[languages.fr.params.clients_list.section]]
 				title = "Ontario"
