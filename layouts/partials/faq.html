@@ -14,7 +14,7 @@
         <div class="row">
             {{ range .Site.Params.faq.questions }}
             <div class="col-sm-8 col-sm-offset-2">
-                <p><a class="faq-question text" data-toggle="collapse" href="#{{ .id }}" aria-expanded="false" aria-controls="collapseExample">{{ .question | markdownify }}</a></p>
+                <p><a class="faq-question text" data-toggle="collapse" href="#{{ .id }}" aria-expanded="false" aria-controls="{{ .id }}">{{ .question | markdownify }}</a></p>
                 <div class="collapse" id="{{ .id }}">
                     <div class="faq-answer">{{ .answer | markdownify }}</div>
                 </div>
