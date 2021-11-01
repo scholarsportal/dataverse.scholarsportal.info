@@ -1,16 +1,26 @@
 
-# Created by https://www.gitignore.io/api/hugo,macos,sublimetext
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,macos,sublimetext,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,macos,sublimetext,visualstudiocode
 
 ### Hugo ###
-hugo.exe
+# Generated files by hugo
 /public/
+/resources/_gen/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
 ### macOS ###
-*.DS_Store
+# General
+.DS_Store
 .AppleDouble
 .LSOverride
 
 # Icon must end with two \r
 Icon
+
 
 # Thumbnails
 ._*
@@ -32,20 +42,21 @@ Temporary Items
 .apdisk
 
 ### SublimeText ###
-# cache files for sublime text
+# Cache files for Sublime Text
 *.tmlanguage.cache
 *.tmPreferences.cache
 *.stTheme.cache
 
-# workspace files are user-specific
+# Workspace files are user-specific
 *.sublime-workspace
 
-# project files should be checked into the repository, unless a significant
-# proportion of contributors will probably not be using SublimeText
-*.sublime-project
+# Project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using Sublime Text
+# *.sublime-project
 
-# sftp configuration file
+# SFTP configuration file
 sftp-config.json
+sftp-config-alt*.json
 
 # Package control specific files
 Package Control.last-run
@@ -69,5 +80,17 @@ GitHub.sublime-settings
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+*.code-workspace
 
-# End of https://www.gitignore.io/api/hugo,macos,sublimetext
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+!.vscode/*.code-snippets
+
+# End of https://www.toptal.com/developers/gitignore/api/hugo,macos,sublimetext,visualstudiocode
