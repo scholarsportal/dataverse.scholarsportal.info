@@ -476,9 +476,9 @@ relativeurls = true
 				link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 				name = "University of Victoria"
 
-			#[[languages.en.params.clients_list.section.clients]]
-			#	link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
-			#	name = "University of Winnipeg"
+			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
+				name = "University of Winnipeg"
 
 			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/viu"
@@ -927,9 +927,9 @@ relativeurls = true
 				link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 				name = "University of Victoria"
 
-			#[[languages.fr.params.clients_list.section.clients]]
-			#	link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
-			#	name = "University of Winnipeg"
+			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
+				name = "University of Winnipeg"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/viu"
