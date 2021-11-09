@@ -453,8 +453,8 @@ relativeurls = true
 				name = "Trinity Western University"
 
 			[[languages.en.params.clients_list.section.clients]]
-				link = "https://dataverse.scholarsportal.info/dataverse/usb"
-				name = "Université de Saint-Boniface"
+				link = "https://dataverse.scholarsportal.info/dataverse/ualberta"
+				name = "University of Alberta"
 
 			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/ubc"
@@ -473,11 +473,15 @@ relativeurls = true
 				name = "University of Regina"
 
 			[[languages.en.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/usb"
+				name = "Université de Saint-Boniface"
+
+			[[languages.en.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 				name = "University of Victoria"
 
 			[[languages.en.params.clients_list.section.clients]]
-				link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
+				link = "https://dataverse.scholarsportal.info/dataverse/uwinnipeg"
 				name = "University of Winnipeg"
 
 			[[languages.en.params.clients_list.section.clients]]
@@ -904,8 +908,8 @@ relativeurls = true
 				name = "Trinity Western University"
 
 			[[languages.fr.params.clients_list.section.clients]]
-				link = "https://dataverse.scholarsportal.info/dataverse/usb"
-				name = "Université de Saint-Boniface"
+				link = "https://dataverse.scholarsportal.info/dataverse/ualberta"
+				name = "University of Alberta"
 
 			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/ubc"
@@ -924,11 +928,15 @@ relativeurls = true
 				name = "University of Regina"
 
 			[[languages.fr.params.clients_list.section.clients]]
+				link = "https://dataverse.scholarsportal.info/dataverse/usb"
+				name = "Université de Saint-Boniface"
+
+			[[languages.fr.params.clients_list.section.clients]]
 				link = "https://dataverse.scholarsportal.info/dataverse/uvic"
 				name = "University of Victoria"
 
 			[[languages.fr.params.clients_list.section.clients]]
-				link = "https://dataverse.scholarsportal.info/dataverse/winnipeg"
+				link = "https://dataverse.scholarsportal.info/dataverse/uwinnipeg"
 				name = "University of Winnipeg"
 
 			[[languages.fr.params.clients_list.section.clients]]
