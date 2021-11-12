@@ -200,7 +200,7 @@ relativeurls = true
 			[[languages.en.params.about.events]]
 				img = "discoverability.png"
 				title = "Discoverability"
-				description = "Scholars Portal's Dataverse feeds into the [SHARE notification system](http://www.share-research.org/) to increase the discoverability of your public datasets. Dataverse also supports [ORCID identifiers](https://orcid.org/) to link your data to your online scholarly record."
+				description = "Scholars Portal's Dataverse feeds into the [SHARE notification system](https://www.share-research.org/) to increase the discoverability of your public datasets. Dataverse also supports [ORCID identifiers](https://orcid.org/) to link your data to your online scholarly record."
 
 			[[languages.en.params.about.events]]
 				img = "bilingual.png"
@@ -567,7 +567,7 @@ relativeurls = true
 
 			[[languages.en.params.faq.questions]]
 			question = "Can Dataverse integrate with other research tools?"
-			answer = "Dataverse is integrated with [the Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse. See [the OSF Guide](http://help.osf.io/m/addons/l/524149-storage-add-ons) for further information. This feature is especially useful for collaborating with team members in remote areas.<br><br>Other integrations are [listed here](https://dataverse.org/integrations)."
+			answer = "Dataverse is integrated with [the Open Science Framework (OSF)](https://osf.io/), which provides cloud-based management for your projects, enabling you to keep all project files, data and protocols in one centralized location. The OSF can also be connected to several third-party storage services, including Dataverse. See [the OSF Guide](https://help.osf.io/hc/en-us/articles/360019737314-Connect-Dataverse-to-a-Project) for further information. This feature is especially useful for collaborating with team members in remote areas.<br><br>Other integrations are [listed here](https://dataverse.org/integrations)."
 			id = "12"
 
 
@@ -735,7 +735,7 @@ relativeurls = true
 			[[languages.fr.params.about.events]]
 				img = "discoverability.png"
 				title = "Repérage facile"
-				description = "Scholars Portal Dataverse puise dans le système de notification [SHARE](http://www.share-research.org/) pour améliorer le repérage des ensembles de données rendus publics. Dataverse supporte aussi les identifiants [ORCID](https://orcid.org/) qui permettent de lier vos données à votre profil de chercheur en ligne."
+				description = "Scholars Portal Dataverse puise dans le système de notification [SHARE](https://www.share-research.org) pour améliorer le repérage des ensembles de données rendus publics. Dataverse supporte aussi les identifiants [ORCID](https://orcid.org/) qui permettent de lier vos données à votre profil de chercheur en ligne."
 
 			[[languages.fr.params.about.events]]
 				img = "bilingual.png"
@@ -1103,7 +1103,7 @@ relativeurls = true
 
 			[[languages.fr.params.faq.questions]]
 			question = "Dataverse s'intègre-t-il à d'autres outils de recherche?"
-			answer = "Dataverse s'intègre à l'[Open Science Framework (OSF)](https://osf.io/), qui offre la gestion infonuagique de vos projets et vous permet de conserver l'ensemble de vos dossiers de projets, de vos données et protocoles à un même endroit centralisé. L'OSF peut également être connectée à de nombreux autres services externes de stockage, y compris Dataverse 4.0. Veuillez consulter le [Guide OSF](http://help.osf.io/m/addons/l/524149-storage-add-ons) pour plus d'information. Cette fonctionnalité est particulièrement utile si vous collaborez avec des membres en région éloignée."
+			answer = "Dataverse s'intègre à l'[Open Science Framework (OSF)](https://osf.io/), qui offre la gestion infonuagique de vos projets et vous permet de conserver l'ensemble de vos dossiers de projets, de vos données et protocoles à un même endroit centralisé. L'OSF peut également être connectée à de nombreux autres services externes de stockage, y compris Dataverse 4.0. Veuillez consulter le [Guide OSF](https://help.osf.io/hc/en-us/articles/360019737314-Connect-Dataverse-to-a-Project) pour plus d'information. Cette fonctionnalité est particulièrement utile si vous collaborez avec des membres en région éloignée."
 			id = "12"
 
 		# Contact section
