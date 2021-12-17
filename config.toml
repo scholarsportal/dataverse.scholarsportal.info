@@ -598,12 +598,9 @@ relativeurls = true
 		# Footer section
 		[params.footer]
 		enable = true
-			copyright = "&copy; Ontario Council of University Libraries"
-			logo = "ocul.png"
-			link = "https://ocul.on.ca"
-			secondcopyright = "Scholars Portal"
-			secondlogo = "sp.png"
-			secondlink = "https://scholarsportal.info/"
+			copyright = "Scholars Portal"
+			logo = "sp.png"
+			link = "https://scholarsportal.info/"
 
 			[[params.footer.social]]
 				icon = "fa-twitter"
@@ -1133,12 +1130,9 @@ relativeurls = true
 		# Footer section
 		[languages.fr.params.footer]
 		enable = true
-			copyright = "&copy; Conseil des bibliotheques universitaires de l'Ontario"
-			logo = "cbuo.png"
-			link = "https://ocul.on.ca"
-			secondcopyright = "Scholars Portal"
-			secondlogo = "sp.png"
-			secondlink = "https://scholarsportal.info/"
+			copyright = "Scholars Portal"
+			logo = "sp.png"
+			link = "https://scholarsportal.info/"
 
 			[[languages.fr.params.footer.social]]
 				icon = "fa-twitter"
